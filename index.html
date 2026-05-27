@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>angelø</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      color: #e8e8e8;
+      font-family: Georgia, serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      margin-bottom: 4rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+      font-weight: normal;
+      letter-spacing: 0.08em;
+    }
+
+    .subtitle {
+      color: #999;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #d7d7d7;
+      text-decoration: none;
+      border: 1px solid #555;
+      padding: 0.4rem 0.8rem;
+    }
+
+    nav a:hover {
+      background: #222;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    h2 {
+      font-weight: normal;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      border-left: 2px solid #555;
+      padding-left: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .meta {
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+      margin-top: 1rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    footer {
+      margin-top: 5rem;
+      color: #666;
+      border-top: 1px solid #333;
+      padding-top: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .lang-switch {
+      float: right;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="lang-switch">EN / FR</div>
+
+      <h1>angelø</h1>
+      <div class="subtitle">
+        mathematics · music · philosophy · games · strange artifacts
+      </div>
+
+      <nav>
+        <a href="#videos">Videos</a>
+        <a href="#music">Music</a>
+        <a href="#writing">Writing</a>
+        <a href="#games">Games</a>
+        <a href="#links">Links</a>
+      </nav>
+    </header>
+
+    <section id="videos">
+      <h2>Latest video</h2>
+
+      <div class="card">
+        <div class="meta">May 2026 · mathematics</div>
+        <h3>The Geometry of Impossible Shapes</h3>
+
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="music">
+      <h2>Music</h2>
+
+      <div class="card">
+        <div class="meta">English · ambient folk</div>
+        <h3>Satellite Dreams</h3>
+
+        <audio controls>
+          <source src="song.mp3" type="audio/mpeg">
+        </audio>
+
+        <p>
+          We drew constellations on the ceiling<br>
+          While the city dissolved beneath us...
+        </p>
+      </div>
+    </section>
+
+    <section id="writing">
+      <h2>Writing</h2>
+
+      <div class="card">
+        <div class="meta">French · philosophy · newest</div>
+        <h3>Le vertige des systèmes</h3>
+
+        <p>
+          Toute structure intellectuelle finit par produire son propre fantôme.
+          Les mathématiques elles-mêmes ressemblent parfois à une architecture
+          abandonnée par ses dieux.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="meta">English · poem · 2025</div>
+        <h3>Night Train</h3>
+
+        <p>
+          Somewhere between two unnamed stations,
+          the universe forgot to continue.
+        </p>
+      </div>
+    </section>
+
+    <section id="games">
+      <h2>Games</h2>
+
+      <div class="card">
+        <div class="meta">In development · puzzle exploration</div>
+        <h3>The Observatory Machine</h3>
+
+        <p>
+          A small game about celestial mechanics, memory, and broken instruments.
+        </p>
+
+        <p>
+          → Play in browser<br>
+          → Download on itch.io
+        </p>
+      </div>
+    </section>
+
+    <section id="links">
+      <h2>Elsewhere</h2>
+
+      <ul>
+        <li>YouTube</li>
+        <li>itch.io</li>
+        <li>GitHub</li>
+        <li>Professional page</li>
+      </ul>
+    </section>
+
+    <footer>
+      handmade somewhere on earth · 2026
+    </footer>
+
+  </div>
+</body>
+</html>
