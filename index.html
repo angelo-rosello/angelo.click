@@ -5,217 +5,181 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>angelø</title>
 
-  <style>
-    body {
-      margin: 0;
-      background: #111;
-      color: #e8e8e8;
-      font-family: Georgia, serif;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 850px;
-      margin: auto;
-      padding: 3rem 1.5rem;
-    }
-
-    header {
-      margin-bottom: 4rem;
-      border-bottom: 1px solid #444;
-      padding-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: 4rem;
-      margin: 0;
-      font-weight: normal;
-      letter-spacing: 0.08em;
-    }
-
-    .subtitle {
-      color: #999;
-      font-style: italic;
-      margin-top: 0.5rem;
-    }
-
-    nav {
-      margin-top: 2rem;
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    nav a {
-      color: #d7d7d7;
-      text-decoration: none;
-      border: 1px solid #555;
-      padding: 0.4rem 0.8rem;
-    }
-
-    nav a:hover {
-      background: #222;
-    }
-
-    section {
-      margin-bottom: 4rem;
-    }
-
-    h2 {
-      font-weight: normal;
-      border-bottom: 1px solid #333;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .card {
-      border-left: 2px solid #555;
-      padding-left: 1rem;
-      margin-bottom: 2rem;
-    }
-
-    .meta {
-      color: #888;
-      font-size: 0.9rem;
-    }
-
-    iframe {
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      border: none;
-      margin-top: 1rem;
-    }
-
-    audio {
-      width: 100%;
-      margin-top: 1rem;
-    }
-
-    footer {
-      margin-top: 5rem;
-      color: #666;
-      border-top: 1px solid #333;
-      padding-top: 1rem;
-      font-size: 0.9rem;
-    }
-
-    .lang-switch {
-      float: right;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
 
-    <header>
-      <div class="lang-switch">EN / FR</div>
 
-      <h1>angelø</h1>
-      <div class="subtitle">
-        mathematics · music · philosophy · games · strange artifacts
-      </div>
+    <div class="background-pattern"></div>
 
-      <nav>
-        <a href="#videos">Videos</a>
-        <a href="#music">Music</a>
-        <a href="#writing">Writing</a>
-        <a href="#games">Games</a>
-        <a href="#links">Links</a>
-      </nav>
-    </header>
+    <div class="container">
 
-    <section id="videos">
-      <h2>Latest video</h2>
+        <header>
 
-      <div class="card">
-        <div class="meta">May 2026 · mathematics</div>
-        <h3>The Geometry of Impossible Shapes</h3>
+            <div class="header-top">
 
-        <iframe
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </section>
+                <h1 class="logo">
+                    <span>a</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>ø</span>
+                </h1>
 
-    <section id="music">
-      <h2>Music</h2>
+                <nav>
+                    <a href="videos.html">Musique</a>
+                    <a href="music.html">Poétrie</a>
+                    <a href="writing.html">Jeux</a>
+                    <a href="games.html">Maths</a>
+                    <a href="about.html">À propos</a>
+                </nav>
 
-      <div class="card">
-        <div class="meta">English · ambient folk</div>
-        <h3>Satellite Dreams</h3>
+            </div>
 
-        <audio controls>
-          <source src="song.mp3" type="audio/mpeg">
-        </audio>
+        </header>
 
-        <p>
-          We drew constellations on the ceiling<br>
-          While the city dissolved beneath us...
-        </p>
-      </div>
-    </section>
 
-    <section id="writing">
-      <h2>Writing</h2>
+        <section>
+            <h2>À la une :</h2>
 
-      <div class="card">
-        <div class="meta">French · philosophy · newest</div>
-        <h3>Le vertige des systèmes</h3>
+            <div class="post">
+                <h3>
+                    <u> Dernier projet en date </u> <span class="meta">(May 2026)</span>
+                </h3>
 
-        <p>
-          Toute structure intellectuelle finit par produire son propre fantôme.
-          Les mathématiques elles-mêmes ressemblent parfois à une architecture
-          abandonnée par ses dieux.
-        </p>
-      </div>
+                <p>
+                    Bla bla bla bla bla...
+                </p>
 
-      <div class="card">
-        <div class="meta">English · poem · 2025</div>
-        <h3>Night Train</h3>
+                <a href="videos.html">→ Voir le projet !</a>
+            </div>
 
-        <p>
-          Somewhere between two unnamed stations,
-          the universe forgot to continue.
-        </p>
-      </div>
-    </section>
 
-    <section id="games">
-      <h2>Games</h2>
+        </section>
 
-      <div class="card">
-        <div class="meta">In development · puzzle exploration</div>
-        <h3>The Observatory Machine</h3>
 
-        <p>
-          A small game about celestial mechanics, memory, and broken instruments.
-        </p>
+        <footer>
+            handmade somewhere on earth · 2026
+        </footer>
 
-        <p>
-          → Play in browser<br>
-          → Download on itch.io
-        </p>
-      </div>
-    </section>
+    </div>
 
-    <section id="links">
-      <h2>Elsewhere</h2>
 
-      <ul>
-        <li>YouTube</li>
-        <li>itch.io</li>
-        <li>GitHub</li>
-        <li>Professional page</li>
-      </ul>
-    </section>
+    <!--  Animated background script   -->
+    <script>
 
-    <footer>
-      handmade somewhere on earth · 2026
-    </footer>
+        const bg = document.querySelector('.background-pattern');
 
-  </div>
+        const particles = [];
+
+        const COUNT = 500;  // Number of particles
+        const max_opacity = 0.1;
+
+        for (let i = 0; i < COUNT; i++) {
+
+            const span = document.createElement('span');
+
+            span.innerText = 'Ø';
+
+            bg.appendChild(span);
+
+            particles.push({
+
+                el: span,
+
+                x: Math.random() * window.innerWidth,
+                y: Math.random() * window.innerHeight,
+
+                vx: (Math.random() - 0.5) * 0.3,
+                vy: -0.3 - Math.random() * 0.4,
+
+                size: 12 + Math.random() * 20,
+
+                opacity: max_opacity * Math.random()
+            });
+        }
+
+        let mouseX = -9999;
+        let mouseY = -9999;
+
+        document.addEventListener('mousemove', (e) => {
+
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animate() {
+
+            particles.forEach(p => {
+
+                const dx = p.x - mouseX;
+                const dy = p.y - mouseY;
+
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                const max_dist = 50; // interaction distance
+                const force = 0.4; // repulsion force
+                const upward_mvmt = 0.3; // Updward movement
+                const horizontal_shift = 0.2;
+
+                if (dist < max_dist) {
+
+                    const ratio = (max_dist - dist) / max_dist;
+
+                    p.vx += (dx / dist) * ratio * force * force;
+                    p.vy += (dy / dist) * ratio * force * force;
+                }
+
+                p.vx += (Math.random() - 0.5) * horizontal_shift;
+
+                p.vx *= 0.98;
+                p.vy *= 0.98;
+
+                p.y += p.vy - upward_mvmt;
+                p.x += p.vx;
+
+                if (p.y < -50) {
+                    p.y = window.innerHeight + 50;
+                    p.x = Math.random() * window.innerWidth;
+                }
+
+                if (p.x < -50) p.x = window.innerWidth + 50;
+                if (p.x > window.innerWidth + 50) p.x = -50;
+
+                p.el.style.transform =
+                    `translate(${p.x}px, ${p.y}px)`;
+
+                p.el.style.fontSize =
+                    `${p.size}px`;
+
+
+                // Opacity
+
+                let opacity = p.opacity;
+
+                if (dist < max_dist) {
+
+                    const glow =
+                        (max_dist - dist) / max_dist;
+
+                    opacity += glow * 0.25;
+                }
+
+                p.el.style.opacity =
+                    Math.min(opacity, 0.35);
+
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+    </script>
+
+
 </body>
+
+
+
 </html>
