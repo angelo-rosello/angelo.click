@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>angelø</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Strichpunkt%20Sans" rel="stylesheet">
+
 </head>
+
+
 <body>
 
 
@@ -14,24 +21,30 @@
 
     <div class="container">
 
+        <!-- HEADER -->
+
         <header>
 
             <div class="header-top">
 
-                <h1 class="logo">
-                    <span>a</span>
-                    <span>n</span>
-                    <span>g</span>
-                    <span>e</span>
-                    <span>l</span>
-                    <span>ø</span>
-                </h1>
+                <a href="index.html" class="logo-link">
+                    <h1 class="logo">
+
+                        <span>a</span>
+                        <span>n</span>
+                        <span>g</span>
+                        <span>e</span>
+                        <span>l</span>
+                        <span>ø</span>
+
+                    </h1>
+                </a>
 
                 <nav>
-                    <a href="videos.html">Musique</a>
-                    <a href="music.html">Poétrie</a>
-                    <a href="writing.html">Jeux</a>
-                    <a href="games.html">Maths</a>
+                    <a href="musique.html">Musique</a>
+                    <a href="ecrits.html">Écrits</a>
+                    <a href="jeux.html">Jeux</a>
+                    <a href="maths.html">Maths</a>
                     <a href="about.html">À propos</a>
                 </nav>
 
@@ -39,13 +52,14 @@
 
         </header>
 
+        <!-- PAGE CONTENT -->
 
         <section>
             <h2>À la une :</h2>
 
             <div class="post">
                 <h3>
-                    <u> Dernier projet en date </u> <span class="meta">(May 2026)</span>
+                    Dernier projet en date (Juin 2026)
                 </h3>
 
                 <p>
@@ -58,9 +72,10 @@
 
         </section>
 
+        <!-- FOOTER -->
 
         <footer>
-            handmade somewhere on earth · 2026
+            /!\ Page en cours de construction
         </footer>
 
     </div>
@@ -80,7 +95,7 @@
 
             const span = document.createElement('span');
 
-            span.innerText = 'Ø';
+            span.innerText = 'ø';
 
             bg.appendChild(span);
 
@@ -94,7 +109,7 @@
                 vx: (Math.random() - 0.5) * 0.3,
                 vy: -0.3 - Math.random() * 0.4,
 
-                size: 12 + Math.random() * 20,
+                size: 12 + Math.random() * 30,
 
                 opacity: max_opacity * Math.random()
             });

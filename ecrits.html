@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>angelø — écrits</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Strichpunkt%20Sans" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background-pattern"></div>
+
+    <div class="container">
+
+        <header>
+
+            <div class="header-top">
+
+                <a href="index.html" class="logo-link">
+                    <h1 class="logo">
+
+                        <span>a</span>
+                        <span>n</span>
+                        <span>g</span>
+                        <span>e</span>
+                        <span>l</span>
+                        <span>ø</span>
+
+                    </h1>
+                </a>
+
+                    <nav>
+
+                        <a href="music.html">Musique</a>
+                        <a href="ecrits.html">Écrits</a>
+                        <a href="games.html">Jeux</a>
+                        <a href="maths.html">Maths</a>
+                        <a href="about.html">À propos</a>
+
+                    </nav>
+
+            </div>
+
+        </header>
+
+
+
+        <section>
+
+            <h2>écrits / fragments / archives</h2>
+
+
+
+            <div class="writing-grid">
+
+
+
+                <div class="writing-card">
+
+                    <span class="writing-type">
+                        ESSAI · FR · 2026
+                    </span>
+
+                    <h3>
+                        Le vertige des systèmes
+                    </h3>
+
+                    <p class="writing-preview">
+                        Réflexions sur les structures mentales,
+                        les systèmes symboliques et leurs fantômes.
+                    </p>
+
+                    <div class="writing-content">
+
+                        <p>
+                            Toute structure intellectuelle finit
+                            par produire son propre double spectral.
+                        </p>
+
+                        <p>
+                            Les mathématiques ressemblent parfois
+                            à une architecture abandonnée.
+                        </p>
+
+                        <p>
+                            Pourtant, nous continuons d’y habiter.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="writing-card">
+
+                    <span class="writing-type">
+                        POÈME · EN · 2025
+                    </span>
+
+                    <h3>
+                        Night Train
+                    </h3>
+
+                    <p class="writing-preview">
+                        Fragment written somewhere
+                        between two stations.
+                    </p>
+
+                    <div class="writing-content">
+
+                        <p>
+                            Somewhere between two unnamed stations,
+                            the universe forgot to continue.
+                        </p>
+
+                        <p>
+                            The lights kept moving anyway.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="writing-card">
+
+                    <span class="writing-type">
+                        NOTE · FR · 2024
+                    </span>
+
+                    <h3>
+                        Sur les bibliothèques mortes
+                    </h3>
+
+                    <p class="writing-preview">
+                        Quelques notes sur les archives numériques
+                        et la mémoire.
+                    </p>
+
+                    <div class="writing-content">
+
+                        <p>
+                            Internet ressemble de plus en plus
+                            à une ville reconstruite au-dessus
+                            de ses propres ruines.
+                        </p>
+
+                        <p>
+                            Certaines pages existent encore,
+                            mais personne ne les visite.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="writing-card">
+
+                    <span class="writing-type">
+                        FRAGMENT · EN · 2023
+                    </span>
+
+                    <h3>
+                        Observatory Notes
+                    </h3>
+
+                    <p class="writing-preview">
+                        Incomplete notes from a fictional machine.
+                    </p>
+
+                    <div class="writing-content">
+
+                        <p>
+                            The machine continued observing
+                            long after the astronomers disappeared.
+                        </p>
+
+                        <p>
+                            Nobody remembered what it was measuring.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+
+
+        <footer>
+
+            handmade somewhere on earth · 2026
+
+        </footer>
+
+    </div>
+
+
+
+    <script>
+
+        const cards =
+            document.querySelectorAll('.writing-card');
+
+        cards.forEach(card => {
+
+            card.addEventListener('click', () => {
+
+                card.classList.toggle('expanded');
+
+            });
+
+        });
+
+    </script>
+
+    <!--  Animated background script   -->
+    <script>
+
+        const bg = document.querySelector('.background-pattern');
+
+        const particles = [];
+
+        const COUNT = 500;  // Number of particles
+        const max_opacity = 0.1;
+
+        for (let i = 0; i < COUNT; i++) {
+
+            const span = document.createElement('span');
+
+            span.innerText = 'ø';
+
+            bg.appendChild(span);
+
+            particles.push({
+
+                el: span,
+
+                x: Math.random() * window.innerWidth,
+                y: Math.random() * window.innerHeight,
+
+                vx: (Math.random() - 0.5) * 0.3,
+                vy: -0.3 - Math.random() * 0.4,
+
+                size: 12 + Math.random() * 30,
+
+                opacity: max_opacity * Math.random()
+            });
+        }
+
+        let mouseX = -9999;
+        let mouseY = -9999;
+
+        document.addEventListener('mousemove', (e) => {
+
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animate() {
+
+            particles.forEach(p => {
+
+                const dx = p.x - mouseX;
+                const dy = p.y - mouseY;
+
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                const max_dist = 50; // interaction distance
+                const force = 0.4; // repulsion force
+                const upward_mvmt = 0.3; // Updward movement
+                const horizontal_shift = 0.2;
+
+                if (dist < max_dist) {
+
+                    const ratio = (max_dist - dist) / max_dist;
+
+                    p.vx += (dx / dist) * ratio * force * force;
+                    p.vy += (dy / dist) * ratio * force * force;
+                }
+
+                p.vx += (Math.random() - 0.5) * horizontal_shift;
+
+                p.vx *= 0.98;
+                p.vy *= 0.98;
+
+                p.y += p.vy - upward_mvmt;
+                p.x += p.vx;
+
+                if (p.y < -50) {
+                    p.y = window.innerHeight + 50;
+                    p.x = Math.random() * window.innerWidth;
+                }
+
+                if (p.x < -50) p.x = window.innerWidth + 50;
+                if (p.x > window.innerWidth + 50) p.x = -50;
+
+                p.el.style.transform =
+                    `translate(${p.x}px, ${p.y}px)`;
+
+                p.el.style.fontSize =
+                    `${p.size}px`;
+
+
+                // Opacity
+
+                let opacity = p.opacity;
+
+                if (dist < max_dist) {
+
+                    const glow =
+                        (max_dist - dist) / max_dist;
+
+                    opacity += glow * 0.25;
+                }
+
+                p.el.style.opacity =
+                    Math.min(opacity, 0.35);
+
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+    </script>
+
+</body>
+
+</html>
