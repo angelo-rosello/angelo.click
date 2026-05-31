@@ -3,13 +3,15 @@
 
 <head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>angelø</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>angelø -- accueil</title>
 
-  <link rel="stylesheet" href="style.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Strichpunkt%20Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Strichpunkt%20Sans" rel="stylesheet">
 
 </head>
 
@@ -17,180 +19,109 @@
 <body>
 
 
-    <div class="background-pattern"></div>
 
-    <div class="container">
+        <div class="background-pattern"></div>
 
-        <!-- HEADER -->
+        <div class="container">
 
-        <header>
+            <!-- HEADER -->
+            ﻿﻿﻿﻿﻿﻿﻿﻿﻿<header>
 
-            <div class="header-top">
+    <div class="header-top">
 
-                <a href="index.html" class="logo-link">
-                    <h1 class="logo">
+        <a href="index.html" class="logo-link">
+            <h1 class="logo">
 
-                        <span>a</span>
-                        <span>n</span>
-                        <span>g</span>
-                        <span>e</span>
-                        <span>l</span>
-                        <span>ø</span>
+                <span>a</span>
+                <span>n</span>
+                <span>g</span>
+                <span>e</span>
+                <span>l</span>
 
-                    </h1>
-                </a>
+                <span class="logo-final">ø</span>
 
-                <nav>
-                    <a href="musique.html">Musique</a>
-                    <a href="ecrits.html">Écrits</a>
-                    <a href="jeux.html">Jeux</a>
-                    <a href="maths.html">Maths</a>
-                    <a href="about.html">À propos</a>
-                </nav>
+            </h1>
+        </a>
 
-            </div>
+        <nav>
 
-        </header>
+            <a href="musique.html">Musique</a>
+            <a href="textes.html">Textes</a>
+            <a href="guestbook.html">Guest Book</a>
 
-        <!-- PAGE CONTENT -->
-
-        <section>
-            <h2>À la une :</h2>
-
-            <div class="post">
-                <h3>
-                    Dernier projet en date (Juin 2026)
-                </h3>
-
-                <p>
-                    Bla bla bla bla bla...
-                </p>
-
-                <a href="videos.html">→ Voir le projet !</a>
-            </div>
-
-
-        </section>
-
-        <!-- FOOTER -->
-
-        <footer>
-            /!\ Page en cours de construction
-        </footer>
+        </nav>
 
     </div>
 
+</header>
 
-    <!--  Animated background script   -->
-    <script>
+             <div class="page-content fade">
 
-        const bg = document.querySelector('.background-pattern');
+                 <!-- PAGE CONTENT -->
 
-        const particles = [];
+                     <section class="home-intro">
 
-        const COUNT = 500;  // Number of particles
-        const max_opacity = 0.1;
+                         <div class="home-portrait">
 
-        for (let i = 0; i < COUNT; i++) {
+                             <img src="images/portrait.png"
+                                  alt="Portrait">
 
-            const span = document.createElement('span');
+                         </div>
 
-            span.innerText = 'ø';
+                         <div class="home-description">
 
-            bg.appendChild(span);
+                             <h2>
 
-            particles.push({
+                                 Bienvenue :)
 
-                el: span,
+                             </h2>
 
-                x: Math.random() * window.innerWidth,
-                y: Math.random() * window.innerHeight,
+                             <p>
 
-                vx: (Math.random() - 0.5) * 0.3,
-                vy: -0.3 - Math.random() * 0.4,
+                                 Cette page est une archive fragmentaire de mes différents projets créatifs. 
+                               
+                                 Elle rassemble des chansons et
+                                 des créations instrumentales,
+                                 des pensées et des poèmes
+                                 en français et en anglais,
+                                 ainsi que (bientôt) d'autres expérimentations
+                                 graphiques et numériques...
 
-                size: 12 + Math.random() * 30,
+                                 Bonne visite !
 
-                opacity: max_opacity * Math.random()
-            });
-        }
-
-        let mouseX = -9999;
-        let mouseY = -9999;
-
-        document.addEventListener('mousemove', (e) => {
-
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-        });
-
-        function animate() {
-
-            particles.forEach(p => {
-
-                const dx = p.x - mouseX;
-                const dy = p.y - mouseY;
-
-                const dist = Math.sqrt(dx * dx + dy * dy);
-                const max_dist = 50; // interaction distance
-                const force = 0.4; // repulsion force
-                const upward_mvmt = 0.3; // Updward movement
-                const horizontal_shift = 0.2;
-
-                if (dist < max_dist) {
-
-                    const ratio = (max_dist - dist) / max_dist;
-
-                    p.vx += (dx / dist) * ratio * force * force;
-                    p.vy += (dy / dist) * ratio * force * force;
-                }
-
-                p.vx += (Math.random() - 0.5) * horizontal_shift;
-
-                p.vx *= 0.98;
-                p.vy *= 0.98;
-
-                p.y += p.vy - upward_mvmt;
-                p.x += p.vx;
-
-                if (p.y < -50) {
-                    p.y = window.innerHeight + 50;
-                    p.x = Math.random() * window.innerWidth;
-                }
-
-                if (p.x < -50) p.x = window.innerWidth + 50;
-                if (p.x > window.innerWidth + 50) p.x = -50;
-
-                p.el.style.transform =
-                    `translate(${p.x}px, ${p.y}px)`;
-
-                p.el.style.fontSize =
-                    `${p.size}px`;
+                             </p>
 
 
-                // Opacity
 
-                let opacity = p.opacity;
+                             <p>
 
-                if (dist < max_dist) {
+                                 This page is a fragmentary archive of my various creative projects.
+                                
+                                 It contains songs and instrumental pieces,
+                                 thoughts and poems
+                                 in both english and french,
+                                 and (soon) other graphical and digital experimentations...
+                                 
+                                 Enjoy your stay!
 
-                    const glow =
-                        (max_dist - dist) / max_dist;
 
-                    opacity += glow * 0.25;
-                }
 
-                p.el.style.opacity =
-                    Math.min(opacity, 0.35);
+                             </p>
 
-            });
+                         </div>
 
-            requestAnimationFrame(animate);
-        }
+                     </section>
 
-        animate();
 
-    </script>
+             
+
+             </div>
+
+        </div>
+
+    <!-- JS SCRIPTS -->
+    <script src="scripts/animated_background.js"></script>
+    <script src="scripts/transition.js"></script>
 
 
 </body>

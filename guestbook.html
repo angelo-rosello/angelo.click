@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>angelø -- guest book</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Strichpunkt%20Sans" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+    <div class="background-pattern"></div>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        ﻿﻿﻿﻿﻿﻿﻿﻿﻿<header>
+
+            <div class="header-top">
+
+                <a href="index.html" class="logo-link">
+                    <h1 class="logo">
+
+                        <span>a</span>
+                        <span>n</span>
+                        <span>g</span>
+                        <span>e</span>
+                        <span>l</span>
+
+                        <span class="logo-final">ø</span>
+
+                    </h1>
+                </a>
+
+                <nav>
+
+                    <a href="musique.html">Musique</a>
+                    <a href="textes.html">Textes</a>
+                    <a href="guestbook.html">Guest Book</a>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+                 <div class="page-content fade">
+
+                     <!-- PAGE CONTENT -->
+                     <!-- ENTRIES -->
+
+                     <section>
+
+                         <h2>GUEST BOOK</h2>
+
+                         <div id="guestbook-entries"
+                              class="guestbook-entries">
+                         </div>
+
+                     </section>
+
+                     <!-- FORM -->
+
+                     <section>
+
+                         <h4>↓ Signez le Guest Book ↓</h4>
+
+                         <div id="guestbook-entries"
+                              class="guestbook-entries">
+                         </div>
+
+
+
+                         <form action="https://api.web3forms.com/submit"
+                               method="POST"
+                               class="guestbook-form">
+
+                             <input type="hidden"
+                                    name="access_key"
+                                    value="48b8440f-ae6a-4125-a6b4-b7bf29f51694">
+
+                             <input type="hidden"
+                                    name="json_entry"
+                                    id="json_entry">
+
+
+                             <!-- NAME -->
+
+                             <label>
+
+                                 VOTRE NOM :
+
+                             </label>
+
+                             <input type="text"
+                                    name="name"
+                                    id="guestbook-name"
+                                    required>
+
+
+                             <!-- WEBSITE -->
+
+                             <label>
+
+                                 VOTRE URL <span>(OPTIONNEL)</span> :
+
+                             </label>
+
+                             <input type="url"
+                                    name="website"
+                                    id="guestbook-website">
+
+
+                             <!-- MESSAGE -->
+
+                             <label>
+
+                                 VOTRE MESSAGE :
+
+                             </label>
+
+                             <textarea name="message"
+                                       id="guestbook-message"
+                                       required></textarea>
+
+
+                             <!-- BUTTON -->
+
+                             <button type="submit">
+
+                                 Signer
+
+                             </button>
+
+                         </form>
+
+                         <div class="information">
+
+                             Merci pour votre petit mot ! Il sera intégré au livre d'or prochainement.
+                             <br />
+                             Si vous souhaitez supprimer votre contribution, merci de me contacter.
+
+                         </div>
+
+                     </section>
+
+
+
+                 </div>
+
+
+
+
+    </div>
+
+    </div>
+
+    <!-- JS SCRIPTS -->
+    <script src="scripts/create_guestbook.js"></script>
+    <script src="scripts/animated_background.js"></script>
+    <script src="scripts/transition.js"></script>
+
+    <script>
+
+        const form =
+            document.querySelector('.guestbook-form');
+
+        form.addEventListener('submit', () => {
+
+            const name =
+                document.getElementById(
+                    'guestbook-name'
+                ).value;
+
+            const website =
+                document.getElementById(
+                    'guestbook-website'
+                ).value;
+
+            const message =
+                document.getElementById(
+                    'guestbook-message'
+                ).value;
+
+
+            // =========================================
+            // DATE
+            // =========================================
+
+            const now = new Date();
+
+            const day =
+                String(now.getDate())
+                    .padStart(2, '0');
+
+            const month =
+                String(now.getMonth() + 1)
+                    .padStart(2, '0');
+
+            const year =
+                String(now.getFullYear())
+                    .slice(-2);
+
+            const date =
+                `${day}/${month}/${year}`;
+
+
+            // =========================================
+            // JSON STRING
+            // =========================================
+
+            const json =
+
+                `{
+        "name": "${name}",
+        "date": "${date}",
+        "message": "${message.replace(/\n/g, " ")}",
+        "website": "${website}"
+},`;
+
+
+            document.getElementById(
+                'json_entry'
+            ).value = json;
+
+        });
+
+    </script>
+
+
+</body>
+
+
+
+</html>
