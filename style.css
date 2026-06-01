@@ -92,22 +92,6 @@ header {
     }
 
 
-    nav {
-        display: grid !important;
-        grid-template-columns: repeat(2, max-content) !important;
-        gap: 0.6rem;
-        justify-content: center;
-        width: max-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-
-        nav a {
-            width: fit-content;
-            font-size: 0.9rem;
-        }
 }
 
 
@@ -126,7 +110,7 @@ header {
 @media (max-width: 700px) {
 
     .logo-link {
-        margin-bottom: 0rem;
+        margin-bottom:0rem;
     }
 
 }
@@ -245,6 +229,26 @@ header {
                 border-color: var(--border-hover);
             }
 
+@media (max-width: 700px) {
+
+
+    nav {
+        display: grid !important;
+        grid-template-columns: repeat(2, max-content) !important;
+        gap: 0.6rem;
+        justify-content: center;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    nav a {
+        width: fit-content;
+        font-size: 1.1rem;
+    }
+}
 
        
 
