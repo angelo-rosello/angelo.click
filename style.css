@@ -447,24 +447,27 @@ header {
         position: relative;
         overflow: hidden;
         min-height: 50px;
+        cursor : pointer;
+
     }
 
 
         .card.expanded {
             grid-column: span 3;
+            cursor: auto;
         }
 
 
     .card-header {
         color: var(--text);
-        cursor: pointer;
         transition: opacity 0.2s ease;
     }
 
 
-        .card-header:hover {
-            opacity: 0.7;
-        }
+    .card.expanded .card-header:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
 
 
     .card-type {
@@ -1114,6 +1117,16 @@ header {
         opacity: 0.9;
     }
 
+
+@media (max-width: 700px) {
+
+    .information {
+        font-size: 0.8rem;
+    }
+
+
+}
+
     /* =========================================================
    FOOTER
 ========================================================= */
@@ -1160,7 +1173,7 @@ header {
 
         .home-portrait img {
             max-width: 70vw;
-            margin-bottom : -1.5rem;
+            margin-bottom: -1.5rem;
         }
     }
 

@@ -109,15 +109,54 @@ async function loadWritings() {
 `;
 
 
-        // ---------- EXPANSION ----------
+        // ---------- EXPANSION / COLLAPSING ----------
 
-        const header =
-            card.querySelector('.card-header');
+        card.addEventListener('click', (event) => {
+
+            // =====================================
+            // IGNORE MEDIA / LINKS
+            // =====================================
+
+            if (
+
+                event.target.closest('audio') ||
+                event.target.closest('video') ||
+                event.target.closest('iframe') ||
+                event.target.closest('a') ||
+                event.target.closest('button')
+
+            ) {
+
+                return;
+            }
 
 
-        header.addEventListener('click', () => {
+            // =====================================
+            // COLLAPSED CARD
+            // =====================================
 
-            card.classList.toggle('expanded');
+            if (!card.classList.contains('expanded')) {
+
+                card.classList.add('expanded');
+
+                return;
+            }
+
+
+            // =====================================
+            // EXPANDED CARD
+            // ONLY HEADER COLLAPSES
+            // =====================================
+
+            if (
+
+                card.classList.contains('expanded') &&
+                event.target.closest('.card-header')
+
+            ) {
+
+                card.classList.remove('expanded');
+            }
 
         });
 

@@ -33,6 +33,77 @@ async function loadMusic() {
 
 
     // =====================================================
+    // CLICK MECHANIC
+    // =====================================================
+
+    function setupCard(cardElement) {
+
+        cardElement.addEventListener('click', (event) => {
+
+            // =============================================
+            // IGNORE MEDIA / LINKS
+            // =============================================
+
+            if (
+
+                event.target.closest('audio') ||
+                event.target.closest('video') ||
+                event.target.closest('iframe') ||
+                event.target.closest('a') ||
+                event.target.closest('button')
+
+            ) {
+
+                return;
+            }
+
+
+            // =============================================
+            // COLLAPSED CARD
+            // CLICK ANYWHERE TO EXPAND
+            // =============================================
+
+            if (
+                !cardElement.classList.contains(
+                    'expanded'
+                )
+            ) {
+
+                cardElement.classList.add(
+                    'expanded'
+                );
+
+                return;
+            }
+
+
+            // =============================================
+            // EXPANDED CARD
+            // ONLY HEADER COLLAPSES
+            // =============================================
+
+            if (
+
+                cardElement.classList.contains(
+                    'expanded'
+                ) &&
+
+                event.target.closest(
+                    '.card-header'
+                )
+
+            ) {
+
+                cardElement.classList.remove(
+                    'expanded'
+                );
+            }
+
+        });
+    }
+
+
+    // =====================================================
     // CREATE CARDS
     // =====================================================
 
@@ -87,9 +158,9 @@ async function loadMusic() {
 
                     <audio controls preload="none">
 
-                    <source
-                        src="${entry.audio}"
-                        type="audio/mpeg">
+                        <source
+                            src="${entry.audio}"
+                            type="audio/mpeg">
 
                     </audio>
 
@@ -147,7 +218,7 @@ async function loadMusic() {
                 `;
 
                 })
-                .join(" \u00B7 ")
+            .join(" \u00B7 ")
             }
 
         \u00B7
@@ -187,44 +258,15 @@ ${descriptionHTML}
 
 
         // =================================================
-        // EXPANSION
-        // =================================================
-
-        const header =
-            card.querySelector('.card-header');
-
-        header.addEventListener('click', () => {
-
-            card.classList.toggle('expanded');
-
-        });
-
-
-        // =================================================
-        // PREVENT AUDIO CLICK EXPANSION
-        // =================================================
-
-        const audio =
-            card.querySelector('audio');
-
-        if (audio) {
-
-            audio.addEventListener('click', e => {
-
-                e.stopPropagation();
-
-            });
-        }
-
-
-        // =================================================
         // CLASSIFICATION
         // =================================================
 
         let added = false;
 
 
-        // ---------- SONGS ----------
+        // =============================================
+        // SONGS
+        // =============================================
 
         if (
 
@@ -236,14 +278,20 @@ ${descriptionHTML}
 
         ) {
 
-            songsGrid.appendChild(
-                card.cloneNode(true)
-            );
+            const clone =
+                card.cloneNode(true);
+
+            setupCard(clone);
+
+            songsGrid.appendChild(clone);
 
             added = true;
         }
 
-        // ---------- PIANO ----------
+
+        // =============================================
+        // PIANO
+        // =============================================
 
         if (
 
@@ -251,15 +299,20 @@ ${descriptionHTML}
 
         ) {
 
-            pianoGrid.appendChild(
-                card.cloneNode(true)
-            );
+            const clone =
+                card.cloneNode(true);
+
+            setupCard(clone);
+
+            pianoGrid.appendChild(clone);
 
             added = true;
         }
 
 
-        // ---------- AMBIENT / ELECTRONIC ----------
+        // =============================================
+        // AMBIENT / ELECTRONIC
+        // =============================================
 
         if (
 
@@ -273,15 +326,20 @@ ${descriptionHTML}
 
         ) {
 
-            ambientGrid.appendChild(
-                card.cloneNode(true)
-            );
+            const clone =
+                card.cloneNode(true);
+
+            setupCard(clone);
+
+            ambientGrid.appendChild(clone);
 
             added = true;
         }
 
 
-        // ---------- OST ----------
+        // =============================================
+        // OST
+        // =============================================
 
         if (
 
@@ -291,41 +349,27 @@ ${descriptionHTML}
 
         ) {
 
-            ostGrid.appendChild(
-                card.cloneNode(true)
-            );
+            const clone =
+                card.cloneNode(true);
+
+            setupCard(clone);
+
+            ostGrid.appendChild(clone);
 
             added = true;
         }
 
 
-        // =================================================
+        // =============================================
         // FALLBACK
-        // =================================================
+        // =============================================
 
         if (!added) {
 
+            setupCard(card);
+
             songsGrid.appendChild(card);
-
         }
-
-    });
-
-
-    // =====================================================
-    // RE-ATTACH HEADER EVENTS AFTER CLONING
-    // =====================================================
-
-    document.querySelectorAll('.card').forEach(card => {
-
-        const header =
-            card.querySelector('.card-header');
-
-        header.addEventListener('click', () => {
-
-            card.classList.toggle('expanded');
-
-        });
 
     });
 
