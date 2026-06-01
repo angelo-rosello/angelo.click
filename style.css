@@ -82,32 +82,31 @@ header {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 0rem;
+        padding-bottom: 1rem;
     }
 
 
     .header-top {
-        flex-direction: column;
         align-items: center;
         gap: 1rem;
     }
 
- 
-
 
     nav {
-        max-height: 100px;
-        flex-direction: column;
+        display: grid !important;
+        grid-template-columns: repeat(2, max-content) !important;
+        gap: 0.6rem;
         justify-content: center;
-        align-items: center;
-        margin: auto auto;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
 
         nav a {
             width: fit-content;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
         }
 }
 
@@ -127,7 +126,7 @@ header {
 @media (max-width: 700px) {
 
     .logo-link {
-        margin-bottom:-0.5rem;
+        margin-bottom: 0rem;
     }
 
 }
@@ -247,20 +246,7 @@ header {
             }
 
 
-        @media (max-width: 700px) {
-
-            nav {
-                margin-top: 1rem;
-                margin-left : auto;
-                margin-right: auto;
-                display: flex;
-                padding-right:110px;
-            }
-
-            nav a{
-                font-size:1rem;
-            }
-        }
+       
 
     /* =========================================================
    GENERIC TYPOGRAPHY
