@@ -33,6 +33,12 @@ body {
     line-height: 1;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 
 .container {
     max-width: 850px;
@@ -70,912 +76,980 @@ header {
     margin-bottom: 0.5rem;
 }
 
+@media (max-width: 700px) {
+
+    header {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0rem;
+    }
+
+
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+
+    nav {
+        max-height: 100px;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 5rem;
+    }
+
+
+
+        nav a {
+            padding: 0.45rem 0.8rem;
+            font-size: 0.85rem;
+        }
+}
+
 
 /* =========================================================
    LOGO
 ========================================================= */
 
 .logo-link {
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     color: inherit;
     display: inline-block;
 }
 
+@media (max-width: 700px) {
 
-h1 {
-    margin: 0;
-    font-size: 4rem;
-    font-weight: normal;
-    letter-spacing: 0.08em;
-    color: var(--text);
-}
-
-
-.logo span {
-    font-family: Courier New;
-    font-size: 1em;
-    margin-right: -0.2em;
-    display: inline-block;
-    animation: wobble 5s ease-in-out infinite;
-    opacity: 0.07;
-    transition: opacity 1s ease, transform 0.2s ease;
-}
-
-
-.logo:hover span {
-    opacity: 1;
-}
-
-
-.logo .logo-final {
-    opacity: 1 !important;
-}
-
-
-.logo span:nth-child(1) {
-    animation-delay: 0s;
-}
-
-.logo span:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.logo span:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-.logo span:nth-child(4) {
-    animation-delay: 0.6s;
-}
-
-.logo span:nth-child(5) {
-    animation-delay: 0.8s;
-}
-
-.logo span:nth-child(6) {
-    animation-delay: 1s;
-}
-
-
-@keyframes wobble {
-
-    0%, 100% {
-        transform: translateY(0px) rotate(0deg);
+    .logo-link {
+        margin-bottom:-1rem;
     }
 
-    25% {
-        transform: translateY(-3px) rotate(-1deg);
-    }
-
-    50% {
-        transform: translateY(3px) rotate(1deg);
-    }
-
-    75% {
-        transform: translateY(-3px) rotate(0.5deg);
-    }
 }
 
 
-/* =========================================================
+    h1 {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: normal;
+        letter-spacing: 0.08em;
+        color: var(--text);
+    }
+
+
+    .logo span {
+        font-family: Courier New;
+        font-size: 1em;
+        margin-right: -0.2em;
+        display: inline-block;
+        animation: wobble 5s ease-in-out infinite;
+        opacity: 0.07;
+        transition: opacity 1s ease, transform 0.2s ease;
+    }
+
+
+    .logo:hover span {
+        opacity: 1;
+    }
+
+
+    .logo .logo-final {
+        opacity: 1 !important;
+    }
+
+
+    .logo span:nth-child(1) {
+        animation-delay: 0s;
+    }
+
+    .logo span:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .logo span:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+
+    .logo span:nth-child(4) {
+        animation-delay: 0.6s;
+    }
+
+    .logo span:nth-child(5) {
+        animation-delay: 0.8s;
+    }
+
+    .logo span:nth-child(6) {
+        animation-delay: 1s;
+    }
+
+
+    @keyframes wobble {
+
+        0%, 100% {
+            transform: translateY(0px) rotate(0deg);
+        }
+
+        25% {
+            transform: translateY(-3px) rotate(-1deg);
+        }
+
+        50% {
+            transform: translateY(3px) rotate(1deg);
+        }
+
+        75% {
+            transform: translateY(-3px) rotate(0.5deg);
+        }
+    }
+
+
+    /* =========================================================
    NAVIGATION
 ========================================================= */
 
-nav {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
+    nav {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
 
 
-    nav a {
-        padding: 0.5rem 1rem;
+        nav a {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--card-bg);
+            color: var(--text);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+
+            nav a:hover {
+                background: var(--card-hover);
+                border-color: var(--border-hover);
+            }
+
+
+    /* =========================================================
+   GENERIC TYPOGRAPHY
+========================================================= */
+
+    h2 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.5rem;
+        letter-spacing: 1em;
+        padding-left: 1em;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        opacity: 0.85;
+
+    }
+
+
+    h4 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.2rem;
+        letter-spacing: 1em;
+        text-transform: uppercase;
+        color: var(--text);
+        margin-top: 1rem;
+        margin-bottom: 1.8rem;
+        opacity: 0.85;
+    }
+
+
+    .subtitle,
+    .meta,
+    .lang,
+    .page-intro-title {
+        color: var(--text-muted);
+    }
+
+
+    .page-intro {
+        max-width: 700px;
+        margin: 3rem auto 5rem auto;
+        text-align: justify;
+        line-height: 1.9;
+        color: var(--text-soft);
+        font-size: 1rem;
+        opacity: 0.9;
+    }
+
+
+        .page-intro p {
+            margin-bottom: 1.5rem;
+        }
+
+
+    .page-intro-title {
+        display: block;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: 0.85rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+    }
+
+
+    @media (max-width: 700px) {
+
+        h1 {
+            font-size: 2.8rem;
+            line-height: 1.8rem;
+        }
+
+
+        h2 {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            letter-spacing: 1em;
+            padding-left: 0.5em;
+        }
+
+        h4 {
+            font-size: 1rem;
+            line-height: 1.8rem;
+            letter-spacing: 1em;
+            padding-left: 0.5em;
+        }
+    }
+
+    /* =========================================================
+   SOCIALS
+========================================================= */
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin: 2rem 0;
+    }
+
+
+        .socials a {
+            opacity: 0.45;
+            transition: var(--transition);
+        }
+
+
+            .socials a:hover {
+                opacity: 1;
+                transform: translateY(-2px);
+            }
+
+
+        .socials img {
+            height: 30px;
+            object-fit: scale-down;
+            opacity: 0.9;
+        }
+
+
+    /* =========================================================
+   HOME INTRO
+========================================================= */
+
+    .home-intro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        max-width: 1000px;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+
+    .home-portrait img {
+        width: 280px;
+        max-width: 35vw;
+        border-radius: var(--radius);
+        object-fit: cover;
+        display: block;
+    }
+
+
+    .home-description {
+        flex: 1;
+        max-width: 500px;
+    }
+
+
+        .home-description p {
+            color: var(--text-soft);
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+
+    /* =========================================================
+   CARD SYSTEM
+========================================================= */
+
+    .card,
+    .album,
+    .guestbook-entry {
         border: 1px solid var(--border);
         border-radius: var(--radius);
         background: var(--card-bg);
-        color: var(--text);
-        text-decoration: none;
         transition: var(--transition);
     }
 
 
-        nav a:hover {
+        .card:hover,
+        .album:hover,
+        .guestbook-entry:hover {
             background: var(--card-hover);
             border-color: var(--border-hover);
         }
 
 
-/* =========================================================
-   GENERIC TYPOGRAPHY
-========================================================= */
-
-h2 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 1.5rem;
-    letter-spacing: 1em;
-    padding-left: 1em;
-    text-transform: uppercase;
-    color: var(--text);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.85;
-}
-
-
-h4 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 1rem;
-    letter-spacing: 0.5em;
-    text-transform: uppercase;
-    color: var(--text);
-    margin-top: 1rem;
-    margin-bottom: 1.8rem;
-    opacity: 0.85;
-}
-
-
-.subtitle,
-.meta,
-.lang,
-.page-intro-title {
-    color: var(--text-muted);
-}
-
-
-.page-intro {
-    max-width: 700px;
-    margin: 3rem auto 5rem auto;
-    text-align: justify;
-    line-height: 1.9;
-    color: var(--text-soft);
-    font-size: 1rem;
-    opacity: 0.9;
-}
-
-
-    .page-intro p {
-        margin-bottom: 1.5rem;
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+        align-items: start;
     }
 
 
-.page-intro-title {
-    display: block;
-    margin-bottom: 2rem;
-    text-align: center;
-    font-size: 0.85rem;
-    letter-spacing: 0.35em;
-    text-transform: uppercase;
-}
-
-
-/* =========================================================
-   SOCIALS
-========================================================= */
-
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    margin: 2rem 0;
-}
-
-
-    .socials a {
-        opacity: 0.45;
-        transition: var(--transition);
+    .card {
+        padding: 1.2rem;
+        position: relative;
+        overflow: hidden;
+        min-height: 50px;
     }
 
 
-        .socials a:hover {
-            opacity: 1;
-            transform: translateY(-2px);
+        .card.expanded {
+            grid-column: span 3;
         }
 
 
-    .socials img {
-        height: 30px;
-        object-fit: scale-down;
-        opacity: 0.9;
+    .card-header {
+        color: var(--text);
+        cursor: pointer;
+        transition: opacity 0.2s ease;
     }
 
 
-/* =========================================================
-   HOME INTRO
-========================================================= */
-
-.home-intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 2rem;
-}
+        .card-header:hover {
+            opacity: 0.7;
+        }
 
 
-.home-portrait img {
-    width: 280px;
-    max-width: 35vw;
-    border-radius: var(--radius);
-    object-fit: cover;
-    display: block;
-}
+    .card-type {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        letter-spacing: 0.12em;
+    }
 
 
-.home-description {
-    flex: 1;
-    max-width: 500px;
-}
-
-
-    .home-description p {
+    .card h3 {
+        font-weight: normal;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
         color: var(--text-soft);
-        line-height: 1.9;
-        margin-bottom: 1.5rem;
-        text-align: justify;
+        text-align: center;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        line-height: 1.5rem;
     }
-
-
-/* =========================================================
-   CARD SYSTEM
-========================================================= */
-
-.card,
-.album,
-.guestbook-entry
-{
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: var(--card-bg);
-    transition: var(--transition);
-}
-
-
-    .card:hover,
-    .album:hover,
-    .guestbook-entry:hover {
-        background: var(--card-hover);
-        border-color: var(--border-hover);
-    }
-
-
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
-    align-items: start;
-}
-
-
-.card {
-    padding: 1.2rem;
-    position: relative;
-    overflow: hidden;
-    min-height: 50px;
-}
-
-
-    .card.expanded {
-        grid-column: span 3;
-    }
-
-
-.card-header {
-    color: var(--text);
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-}
-
-
-    .card-header:hover {
-        opacity: 0.7;
-    }
-
-
-.card-type {
-    color: var(--text-muted);
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-}
-
-
-.card h3 {
-    font-weight: normal;
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0;
-    color: var(--text-soft);
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    line-height: 1.5rem;
-}
 
 
 .card.expanded h3 {
     font-size: 1.5rem;
+    letter-spacing: 0.5em;
+    line-height: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 
-.card-preview {
-    color: var(--text-muted);
-    line-height: 1.5;
-    text-align: center;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-    margin-top: 0.5rem;
-}
+    .card-preview {
+        color: var(--text-muted);
+        line-height: 1.5;
+        text-align: center;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+        margin-top: 0.5rem;
+    }
 
 
-.card.expanded .card-preview {
-    opacity: 0;
-    transform: translateY(-10px);
-    position: absolute;
-    pointer-events: none;
-}
+    .card.expanded .card-preview {
+        opacity: 0;
+        transform: translateY(-10px);
+        position: absolute;
+        pointer-events: none;
+    }
 
 
-.card-content {
-    opacity: 0;
-    text-align: justify;
-    font-size: 1rem;
-    line-height: 1.8;
-    transform: translateY(10px);
-    max-height: 0;
-    overflow: hidden;
-    transition: opacity 0.5s ease, transform 0.5s ease, max-height 0.5s ease;
-}
+    .card-content {
+        opacity: 0;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.8;
+        transform: translateY(10px);
+        max-height: 0;
+        overflow: hidden;
+        transition: opacity 0.5s ease, transform 0.5s ease, max-height 0.5s ease;
+    }
 
 
-.card.expanded .card-content {
-    opacity: 1;
-    transform: translateY(0px);
-    max-height: 3000px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
+    .card.expanded .card-content {
+        opacity: 1;
+        transform: translateY(0px);
+        max-height: 3000px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 
 
-/* =========================================================
+    /* =========================================================
    TAG COLORS
 ========================================================= */
 
-.writing-category,
-.music-tag {
-    font-weight: bold;
-}
-
-
-    .writing-category.poeme,
-    .writing-category.poème,
-    .writing-category.poem,
-    .music-tag.song,
-    .music-tag.rap,
-    .music-tag.chanson {
-        color: #d63a7e;
+    .writing-category,
+    .music-tag {
+        font-weight: bold;
     }
 
 
-    .writing-category.philo,
-    .music-tag.electronique,
-    .music-tag.electronic,
-    .music-tag.ambient,
-    .music-tag.instrumental {
-        color: #312482;
-    }
-
-
-    .writing-category.récit,
-    .writing-category.recit,
-    .music-tag.soundtrack,
-    .music-tag.ost {
-        color: #10912a;
-    }
-
-
-    .music-tag.piano {
-        color: #8b5a2b;
-    }
-
-
-/* =========================================================
-   AUDIO
-========================================================= */
-
-.music-player {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    opacity: 0.75;
-    transition: var(--transition);
-}
-
-
-    .music-player:hover {
-        opacity: 1;
-    }
-
-
-    .music-player audio {
-        width: 100%;
-        max-width: 400px;
-        height: 32px;
-    }
-
-
-/* =========================================================
-   IMAGES & EMBEDS
-========================================================= */
-
-.music-cover {
-    display: block;
-    width: 70%;
-    max-width: 220px;
-    max-height: 180px;
-    object-fit: contain;
-    border-radius: var(--radius);
-    margin: 1rem auto;
-    transition: max-width 0.5s ease, max-height 0.5s ease, opacity 0.5s ease;
-}
-
-
-.music-card.expanded .music-cover {
-    display: none;
-}
-
-
-.music-content iframe.youtube {
-    display: block;
-    width: 80%;
-    max-width: 800px;
-    aspect-ratio: 16 / 9;
-    border: none;
-    border-radius: var(--radius);
-    margin: 1.5rem auto;
-}
-
-
-.music-content img {
-    max-width: 100%;
-    border-radius: var(--radius);
-    margin: 1.5rem 0;
-}
-
-
-/* =========================================================
-   ALBUM
-========================================================= */
-
-.album {
-    display: flex;
-    gap: 1.2rem;
-    align-items: center;
-    max-width: 90%;
-    margin: 1.5rem auto;
-    padding: 1rem;
-}
-
-
-.album-cover {
-    height: 100%;
-    max-height: 220px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: var(--radius);
-    flex-shrink: 0;
-}
-
-
-.album-tracks {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-}
-
-
-.album-track {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-    padding-bottom: 0.2rem;
-    border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-
-
-    .album-track:last-child {
-        border-bottom: none;
-    }
-
-
-.album-track-title {
-    color: var(--text-soft);
-    font-size: 0.9rem;
-}
-
-
-.album-track audio {
-    width: 200px;
-    height: 28px;
-    opacity: 0.75;
-}
-
-
-    .album-track audio:hover {
-        opacity: 1;
-    }
-
-
-/* =========================================================
-   LYRICS
-========================================================= */
-
-.lyrics {
-    column-count: 3;
-    column-gap: 1rem;
-    margin: 2rem -1.5rem;
-    text-align: center;
-    color: var(--text-soft);
-    font-size: 0.95rem;
-    line-height: 1.5;
-    font-style: italic;
-}
-
-
-    .lyrics p {
-        break-inside: avoid;
-        margin-top: 0;
-        margin-bottom: 1.5rem;
-    }
-
-
-/* =========================================================
-   QUOTES
-========================================================= */
-
-.quote {
-    margin: 2rem 0;
-    max-width: 750px;
-}
-
-
-.quote-text {
-    position: relative;
-    padding: 1rem 2rem;
-    color: var(--text-soft);
-    font-style: italic;
-    font-size: 0.95rem;
-    line-height: 1.8;
-}
-
-
-    .quote-text::before,
-    .quote-text::after {
-        position: absolute;
-        color: #aaa;
-        font-size: 3rem;
-        font-style: normal;
-    }
-
-
-    .quote-text::before {
-        content: "“";
-        top: -1rem;
-        left: 0;
-    }
-
-
-    .quote-text::after {
-        content: "”";
-        bottom: -2.5rem;
-        right: 0;
-    }
-
-
-.quote-author {
-    padding-left: 2rem;
-    color: var(--text-muted);
-    font-size: 1rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-
-/* =========================================================
-   BACKGROUND
-========================================================= */
-
-.background-pattern {
-    position: fixed;
-    inset: 0;
-    overflow: hidden;
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-
-    .background-pattern.visible {
-        opacity: 1;
-    }
-
-
-    .background-pattern span {
-        position: absolute;
-        font-family: Courier New;
-        color: rgba(0,0,0,1);
-        user-select: none;
-        will-change: transform;
-    }
-
-
-/* =========================================================
-   PAGE TRANSITIONS
-========================================================= */
-
-.fade {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-
-    .fade.visible {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-
-
-/* =========================================================
-   GUESTBOOK
-========================================================= */
-
-.guestbook-empty {
-    text-align: center;
-    color: var(--text-soft);
-    font-size: 0.9rem;
-    letter-spacing: 0.35em;
-    text-transform: uppercase;
-    opacity: 0.5;
-    padding: 0 0;
-}
-
-
-.guestbook-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    max-width: 700px;
-    margin: auto;
-}
-
-
-    .guestbook-form label {
-        color: var(--text);
-        font-size: 0.9rem;
-        letter-spacing: 0.25em;
-        text-transform: uppercase;
-    }
-
-
-        .guestbook-form label span {
-            opacity: 0.5;
-            letter-spacing: normal;
-            text-transform: none;
+        .writing-category.poeme,
+        .writing-category.poème,
+        .writing-category.poem,
+        .music-tag.song,
+        .music-tag.rap,
+        .music-tag.chanson {
+            color: #d63a7e;
         }
 
 
-    .guestbook-form input,
-    .guestbook-form textarea,
-    .guestbook-form button {
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        background: var(--bg);
-        color: var(--text);
-        font-family: inherit;
+        .writing-category.philo,
+        .music-tag.electronique,
+        .music-tag.electronic,
+        .music-tag.ambient,
+        .music-tag.instrumental {
+            color: #312482;
+        }
+
+
+        .writing-category.récit,
+        .writing-category.recit,
+        .music-tag.soundtrack,
+        .music-tag.ost {
+            color: #10912a;
+        }
+
+
+        .music-tag.piano {
+            color: #8b5a2b;
+        }
+
+
+    /* =========================================================
+   AUDIO
+========================================================= */
+
+    .music-player {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        opacity: 0.75;
         transition: var(--transition);
     }
 
 
-    .guestbook-form input,
-    .guestbook-form textarea {
-        padding: 1rem;
-        font-size: 0.95rem;
-        line-height: 1.7;
-    }
-
-
-        .guestbook-form input:focus,
-        .guestbook-form textarea:focus {
-            outline: none;
-            border-color: #999;
+        .music-player:hover {
+            opacity: 1;
         }
 
 
-    .guestbook-form textarea {
-        min-height: 100px;
-        max-height: 100px;
-        resize: none;
-    }
-
-
-    .guestbook-form button {
-        align-self: flex-start;
-        padding: 0.9rem 1.4rem;
-        cursor: pointer;
-        font-size: 0.9rem;
-        letter-spacing: 0.25em;
-        text-transform: uppercase;
-    }
-
-
-        .guestbook-form button:hover {
-            background: var(--card-hover);
-            border-color: var(--border-hover);
-            transform: translateY(-2px);
+        .music-player audio {
+            width: 100%;
+            max-width: 400px;
+            height: 32px;
         }
 
 
-.guestbook-entries {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 700px;
-    margin: auto;
-    padding-top: 1rem;
-}
-
-
-.guestbook-entry {
-    padding: 1rem 1.5rem;
-}
-
-
-.guestbook-message {
-    color: var(--text-soft);
-    font-family: Courier New;
-    line-height: 1.9;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-.guestbook-signature,
-.guestbook-entry a {
-    text-align: right;
-    color: var(--text);
-    font-size: 0.9rem;
-    font-style: italic;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    opacity: 0.8;
-}
-
-
-    .guestbook-entry a:hover {
-        opacity: 0.6;
-    }
-
-
-
-/* =========================================================
-   INFORMATION
+    /* =========================================================
+   IMAGES & EMBEDS
 ========================================================= */
 
-.information {
-    max-width: 700px;
-    margin: 2rem auto;
-    text-align: center;
-    line-height: 1.9;
-    color: var(--text-soft);
-    font-size: 0.95rem;
-    font-style: italic;
-    opacity: 0.9;
-}
+    .music-cover {
+        display: block;
+        width: 70%;
+        max-width: 220px;
+        max-height: 180px;
+        object-fit: contain;
+        border-radius: var(--radius);
+        margin: 1rem auto;
+        transition: max-width 0.5s ease, max-height 0.5s ease, opacity 0.5s ease;
+    }
 
-/* =========================================================
-   FOOTER
+
+    .music-card.expanded .music-cover {
+        display: none;
+    }
+
+
+    .music-content iframe.youtube {
+        display: block;
+        width: 80%;
+        max-width: 800px;
+        aspect-ratio: 16 / 9;
+        border: none;
+        border-radius: var(--radius);
+        margin: 1.5rem auto;
+    }
+
+
+    .music-content img {
+        max-width: 100%;
+        border-radius: var(--radius);
+        margin: 1.5rem 0;
+    }
+
+
+    /* =========================================================
+   ALBUM
 ========================================================= */
-
-footer {
-    border-top: 1px solid var(--border);
-    margin-top: 2rem;
-    padding-top: 1rem;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-}
-
-
-/* =========================================================
-   RESPONSIVE
-========================================================= */
-
-@media (max-width: 900px) {
-
-    .card.expanded {
-        grid-column: span 1;
-    }
-
-
-    .lyrics {
-        column-count: 1;
-    }
-}
-
-
-@media (max-width: 800px) {
-
-    .home-intro {
-        flex-direction: column;
-        gap: 2rem;
-        text-align: center;
-    }
-
-
-    .home-description p {
-        text-align: center;
-    }
-
-
-    .home-portrait img {
-        max-width: 70vw;
-    }
-}
-
-
-@media (max-width: 700px) {
-
-    h1 {
-        font-size: 2.8rem;
-    }
-
-
-    nav {
-        flex-direction: column;
-    }
-
-
-        nav a {
-            width: fit-content;
-        }
-
-
-    .header-top {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
 
     .album {
-        flex-direction: column;
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+        max-width: 90%;
+        margin: 1.5rem auto;
+        padding: 1rem;
     }
 
 
     .album-cover {
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        margin: auto;
+        height: 100%;
+        max-height: 220px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: var(--radius);
+        flex-shrink: 0;
+    }
+
+
+    .album-tracks {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
     }
 
 
     .album-track {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.8rem;
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
     }
 
 
-        .album-track audio {
-            width: 100%;
+        .album-track:last-child {
+            border-bottom: none;
         }
-}
+
+
+    .album-track-title {
+        color: var(--text-soft);
+        font-size: 0.9rem;
+    }
+
+
+    .album-track audio {
+        width: 200px;
+        height: 28px;
+        opacity: 0.75;
+    }
+
+
+        .album-track audio:hover {
+            opacity: 1;
+        }
+
+
+    /* =========================================================
+   LYRICS
+========================================================= */
+
+    .lyrics {
+        column-count: 3;
+        column-gap: 1rem;
+        margin: 2rem -1.5rem;
+        text-align: center;
+        color: var(--text-soft);
+        font-size: 0.95rem;
+        line-height: 1.5;
+        font-style: italic;
+    }
+
+
+        .lyrics p {
+            break-inside: avoid;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+
+    /* =========================================================
+   QUOTES
+========================================================= */
+
+    .quote {
+        margin: 2rem 0;
+        max-width: 750px;
+    }
+
+
+    .quote-text {
+        position: relative;
+        padding: 1rem 2rem;
+        color: var(--text-soft);
+        font-style: italic;
+        font-size: 0.95rem;
+        line-height: 1.8;
+    }
+
+
+        .quote-text::before,
+        .quote-text::after {
+            position: absolute;
+            color: #aaa;
+            font-size: 3rem;
+            font-style: normal;
+        }
+
+
+        .quote-text::before {
+            content: "“";
+            top: -1rem;
+            left: 0;
+        }
+
+
+        .quote-text::after {
+            content: "”";
+            bottom: -2.5rem;
+            right: 0;
+        }
+
+
+    .quote-author {
+        padding-left: 2rem;
+        color: var(--text-muted);
+        font-size: 1rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+
+
+    /* =========================================================
+   BACKGROUND
+========================================================= */
+
+    .background-pattern {
+        position: fixed;
+        inset: 0;
+        overflow: hidden;
+        z-index: 0;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+
+        .background-pattern.visible {
+            opacity: 1;
+        }
+
+
+        .background-pattern span {
+            position: absolute;
+            font-family: Courier New;
+            color: rgba(0,0,0,1);
+            user-select: none;
+            will-change: transform;
+        }
+
+
+    /* =========================================================
+   PAGE TRANSITIONS
+========================================================= */
+
+    .fade {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+
+        .fade.visible {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+
+    /* =========================================================
+   GUESTBOOK
+========================================================= */
+
+    .guestbook-empty {
+        text-align: center;
+        color: var(--text-soft);
+        font-size: 0.9rem;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        opacity: 0.5;
+        padding: 0 0;
+    }
+
+
+    .guestbook-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        max-width: 700px;
+        margin: auto;
+    }
+
+
+        .guestbook-form label {
+            color: var(--text);
+            font-size: 0.9rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        }
+
+
+            .guestbook-form label span {
+                opacity: 0.5;
+                letter-spacing: normal;
+                text-transform: none;
+            }
+
+
+        .guestbook-form input,
+        .guestbook-form textarea,
+        .guestbook-form button {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--bg);
+            color: var(--text);
+            font-family: inherit;
+            transition: var(--transition);
+        }
+
+
+        .guestbook-form input,
+        .guestbook-form textarea {
+            padding: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+
+            .guestbook-form input:focus,
+            .guestbook-form textarea:focus {
+                outline: none;
+                border-color: #999;
+            }
+
+
+        .guestbook-form textarea {
+            min-height: 100px;
+            max-height: 100px;
+            resize: none;
+        }
+
+
+        .guestbook-form button {
+            align-self: flex-start;
+            padding: 0.9rem 1.4rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        }
+
+
+            .guestbook-form button:hover {
+                background: var(--card-hover);
+                border-color: var(--border-hover);
+                transform: translateY(-2px);
+            }
+
+
+    .guestbook-entries {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 700px;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+
+    .guestbook-entry {
+        padding: 1rem 1.5rem;
+    }
+
+
+    .guestbook-message {
+        color: var(--text-soft);
+        font-family: Courier New;
+        line-height: 1.9;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .guestbook-signature,
+    .guestbook-entry a {
+        text-align: right;
+        color: var(--text);
+        font-size: 0.9rem;
+        font-style: italic;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        opacity: 0.8;
+    }
+
+
+        .guestbook-entry a:hover {
+            opacity: 0.6;
+        }
+
+
+
+    /* =========================================================
+   INFORMATION
+========================================================= */
+
+    .information {
+        max-width: 700px;
+        margin: 2rem auto;
+        margin-top:-0.25rem;
+        text-align: center;
+        line-height: 1.9;
+        color: var(--text-soft);
+        font-size: 0.95rem;
+        font-style: italic;
+        opacity: 0.9;
+    }
+
+    /* =========================================================
+   FOOTER
+========================================================= */
+
+    footer {
+        border-top: 1px solid var(--border);
+        margin-top: 2rem;
+        padding-top: 1rem;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+    }
+
+
+    /* =========================================================
+   RESPONSIVE
+========================================================= */
+
+    @media (max-width: 900px) {
+
+        .card.expanded {
+            grid-column: span 1;
+        }
+
+
+        .lyrics {
+            column-count: 1;
+        }
+    }
+
+
+    @media (max-width: 800px) {
+
+        .home-intro {
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+        }
+
+
+        .home-description p {
+            text-align: center;
+        }
+
+
+        .home-portrait img {
+            max-width: 70vw;
+        }
+    }
+
+
+    @media (max-width: 700px) {
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+
+        nav {
+            flex-direction: column;
+        }
+
+
+            nav a {
+                width: fit-content;
+            }
+
+
+        .header-top {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+
+        .album {
+            flex-direction: column;
+        }
+
+
+        .album-cover {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            margin: auto;
+        }
+
+
+        .album-track {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+
+            .album-track audio {
+                width: 100%;
+            }
+    }
 
