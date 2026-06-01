@@ -1285,13 +1285,18 @@ header {
 
     margin-left: 0.5rem;
 
-    opacity: 0.6;
+    opacity: 0.8;
 
     transition:
         transform 0.3s ease;
 }
 
+@media (max-width: 700px) {
 
+    .toggle-header::after {
+        font-size: 0.8em;
+    }
+}
 
 /* =========================================================
    OPEN
