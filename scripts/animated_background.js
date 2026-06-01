@@ -2,6 +2,15 @@
 
 window.addEventListener("load", () => {
 
+    // =====================================
+    // DISABLE ON MOBILE
+    // =====================================
+
+    if (window.innerWidth <= 700) {
+
+        return;
+    }
+
     setTimeout(() => {
 
         initBackground();
