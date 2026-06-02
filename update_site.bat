@@ -76,7 +76,7 @@ echo PUSHING TO GITHUB
 echo ==========================================
 echo.
 
-git push
+call git push
 
 echo.
 echo ==========================================
