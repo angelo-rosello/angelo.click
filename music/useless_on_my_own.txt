@@ -10,7 +10,8 @@ image:
 
 <div class="lyrics">
 
-(We are ROSELLANGE and this is a relatable song about being a pathetic human being)\\
+(We are ROSELLANGE and this is a relatable song\\
+about being a pathetic human being)\\
 (1, 2, 3, 4!)
 
 I'm kinda useless on my own\\
