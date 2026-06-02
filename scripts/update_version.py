@@ -64,7 +64,7 @@ with open(
 
 
 # ============================================
-# UPDATE INDEX.HTML
+# UPDATE FOOTER OF INDEX.HTML
 # ============================================
 
 footer_text = (
@@ -86,15 +86,15 @@ with open(
 
 html = re.sub(
 
-    r'<div id="site-footer">.*?</div>',
+    r'<footer id="site-footer">.*?</footer>',
 
     f'''
 
-<div id="site-footer">
+<footer id="site-footer">
 
     {footer_text}
 
-</div>
+</footer>
 
 ''',
 
