@@ -101,13 +101,14 @@ header {
 
 #site-footer {
     text-align: right;
-    margin-top: 4rem;
-    padding-bottom: 1rem;
+    margin-top: 0rem;
+    padding-bottom: 0rem;
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--text-muted);
     opacity: 0.5;
+    border-top: none;
 }
 
 /* =========================================================

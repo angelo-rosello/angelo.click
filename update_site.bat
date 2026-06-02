@@ -27,29 +27,6 @@ echo.
 git status --short
 
 echo.
-set /p msg=Describe this update: 
-
-if "%msg%"=="" (
-    set msg=site update
-)
-
-git add .
-
-git commit -m "%msg%"
-
-git push
-
-pause
-
-echo.
-echo ==========================================
-echo CHANGED FILES
-echo ==========================================
-echo.
-
-git status --short
-
-echo.
 echo ==========================================
 echo COMMIT MESSAGE
 echo ==========================================
@@ -71,13 +48,17 @@ git add .
 
 git commit -m "%msg%"
 
+echo Commit finished.
+
 echo.
 echo ==========================================
-echo PUSHING TO GITHUB
+echo PUSHING
 echo ==========================================
 echo.
 
 git push
+
+echo Push finished.
 
 echo.
 echo ==========================================
