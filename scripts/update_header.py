@@ -42,5 +42,3 @@ for filename in os.listdir(ROOT_DIR):
 
     print(f"Updated header in: {filename}")
 
-
-print("\nAll headers updated successfully.")

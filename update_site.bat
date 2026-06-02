@@ -1,9 +1,9 @@
 @echo off
 
 echo.
-echo =================================================
-echo RUNNING PYTHON SCRIPS TO UPDATE JSONs AND HEADERS
-echo =================================================
+echo ==========================================================
+echo RUNNING PYTHON SCRIPS TO UPDATE JSONs, HEADERS AND VERSION
+echo ==========================================================
 echo.
 
 @echo off
@@ -13,6 +13,7 @@ cd scripts
 python build_music.py
 python build_writings.py
 python update_header.py
+python update_version.py
 
 cd ..
 
@@ -54,7 +55,7 @@ echo COMMIT MESSAGE
 echo ==========================================
 echo.
 
-set /p msg=Describe this update:
+set /p msg=Name this update for Github log:
 
 if "%msg%"=="" (
     set msg=site update

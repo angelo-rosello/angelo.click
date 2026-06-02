@@ -96,6 +96,21 @@ header {
 
 
 /* =========================================================
+   FOOTER
+========================================================= */
+
+#site-footer {
+    text-align: right;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    opacity: 0.5;
+}
+
+/* =========================================================
    LOGO
 ========================================================= */
 
