@@ -70,7 +70,7 @@ with open(
 footer_text = (
 
     f"{new_version}"
-    f" - updated {today}"
+    f" - last updated {today}"
 
 )
 
@@ -86,11 +86,11 @@ with open(
 
 html = re.sub(
 
-    r'<div id="site-version">.*?</div>',
+    r'<div id="site-footer">.*?</div>',
 
     f'''
 
-<div id="site-version">
+<div id="site-footer">
 
     {footer_text}
 
