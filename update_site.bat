@@ -32,7 +32,7 @@ echo COMMIT MESSAGE
 echo ==========================================
 echo.
 
-set /p msg=Name this update for Github log:
+set /p msg=Name this update for Github log: 
 
 if "%msg%"=="" (
     set msg=site update

@@ -3,12 +3,17 @@ import re
 
 ROOT_DIR = ".."
 HEADER_FILE = "../components/header.html"
+INDEX_HEADER_FILE = "../components/index-header.html"
 
 
 # Read header component
 with open(HEADER_FILE, "r", encoding="utf-8") as f:
 
     header_content = f.read().strip()
+
+with open(INDEX_HEADER_FILE, "r", encoding="utf-8") as f:
+
+    index_header_content = f.read().strip()
 
 
 # Find all HTML files in root
@@ -23,13 +28,17 @@ for filename in os.listdir(ROOT_DIR):
 
         html = f.read()
 
+        if filename == "index.html" :
+            content = index_header_content
+        else :
+            content = header_content
 
     # Replace existing <header>...</header>
     updated_html = re.sub(
 
         r"<header>[\s\S]*?</header>",
 
-        header_content,
+        content,
 
         html
     )
