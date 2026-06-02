@@ -1,0 +1,84 @@
+title: Gulliver
+date: 01/21
+tags: chanson
+lang: fr
+description: 
+audio: audio/gulliver.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+T'en as rêvé souvent\\
+De pouvoir vivre d'autres vies\\
+Parler comme d'autres gens\\
+Et connaître d'autres nuits\\
+Que la nuit d'avant\\
+T'y a pensé parfois\\
+À descendre les escaliers\\
+Dans la ville d'en bas\\
+Et à t'y laisser oublier\\
+À l'abri du temps\\
+T'y as pensé souvent
+
+Mais je nous vois franchir le cap\\
+De Magellan\\
+Et les rumeurs semées éparses\\
+Aux quatre vents\\
+Parlent de toi\\
+Du plus petit\\
+Des grands géants
+
+Confesse à la Madone\\
+Ton bilan carbone\\
+Inspire tout cet air à terre\\
+Pour une place dans l'univers\\
+Souffle dans les bombonnes\\
+Et les feuilles d'automne\\
+Et chéris tout ce qui t'est cher\\
+Comme un voyage\\
+De Gulliver
+
+T'en as rêvé longtemps\\
+D'apprendre à faire\\tomber la pluie\\
+À peindre l'air du vent\\
+Et pouvoir goûter d'autres fruits\\
+Que les fruits des champs\\
+Tu t'es blessé parfois\\
+À vouloir suivre le courant\\
+Qui jette en contrebas\\
+Les cœurs lestés dans les torrents\\
+Dans les gravats\\
+Tu t'es blessé parfois
+
+Mais je nous vois franchir le cap\\
+De Magellan\\
+Et les rumeurs semées éparses\\
+Aux quatre vents\\
+Parlent de toi\\
+Du plus petit\\
+Des grands géants
+
+Confesse à la Madone\\
+Ton bilan carbone\\
+Inspire tout cet air à terre\\
+Pour une place dans l'univers\\
+Souffle dans les bombonnes\\
+Et les feuilles d'automne\\
+Et chéris tout ce qui t'est cher\\
+Comme un voyage\\
+De Gulliver
+
+Confie à qui veut croire\\
+Tes morceaux d'histoire\\
+Et montre tout c'que tu sais faire\\
+Pour une place dans l'univers\\
+Délivre dans le noir\\
+Tes chagrins du soir\\
+Et chéris tout sur cette terre\\
+Comme un voyage\\
+De Gulliver
+
+
+</div>

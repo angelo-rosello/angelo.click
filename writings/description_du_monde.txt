@@ -1,0 +1,11 @@
+title: De la description du monde
+date: 02/26
+type: philo, poème
+lang: fr
+description: Que dire de vrai, de vraiment vrai ?
+
+---
+
+Il est une Vérité qui se vit et se perd dès qu'on la dit.
+
+Toute description de celle-ci n'est précise et fonctionnelle qu'aussi loin qu'elle la parjure. Les mots les plus justes pour rendre grâce au monde sont ceux qui lui font la plus grande offense, de leur sublime et nécessaire espoir de faire de l'Être un avoir. Ainsi les raisonnement les plus rigides et denses sont-ils aussi ceux qui présentent la plus grande porosité. Par dessus tout, ce sont dans les traités physicalistes, ceux qui rayonnent d'une merveilleuse et terrible volonté d'exhaustion, ceux qui s'attachent à traduire avec une rigueur et un émoi sans borne la plus petite respiration de l'instant en un édifiant système de cause et d'effets, que l'on perçoit le mieux le sourire de l'indicible qui déborde entre les lignes.

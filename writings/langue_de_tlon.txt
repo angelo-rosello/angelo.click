@@ -1,0 +1,37 @@
+title: La langue de Tlön
+date: 08/25
+type: philo
+lang: fr
+description: Épiphanie sur le langage, rédigée fiévreusement dans un couloir à Chatelet, après la lecture d'une nouvelle de Borges.
+
+---
+
+Il faut privilégier les verbes aux substantifs. 
+
+Les premiers seuls peuvent prétendre faire état authentique de l'expérience vivante, de l'impossible substance active qui perpétuellement agite son immobilité sur un fil tendu entre révolu et renouvelé - sans l'aseptiser, l'étouffer ni la glorifier des contours définis d'une essence propre, singulière ou séparée. 
+
+Avec les seconds pourtant, qu'ils polissent et affûtent en des finesses merveilleuses, toutes les sortes d'hommes s'appliquent d'un élan naturel et conjoint à éventrer chaque recoin de la toile du monde, pour percer à jour un substantifique éclat de vie qu'ils croient dissimulé - et tragiquement mutilent, par ce juste geste, le dessein même qui les animent.
+
+Noyons nos yeux, et brisons nos poings, et ouvrons nos cœurs, et crions et rions de plus belle !\\
+Car comment pourrait-il en être autrement ?
+
+
+<div class="quote">
+        <div class="quote-text">
+            Les peuples de cette planète sont — congénitalement — idéalistes.
+            Leur langage et les dérivations de celui-ci — la religion, les lettres, la métaphysique — présupposent l’idéalisme.
+            Pour eux, le monde n’est pas une réunion d’objets dans l’espace ; c’est une série hétérogène d’actes indépendants.
+            Il est successif, temporel, non spatial.
+            Il n’y a pas de substantif dans la conjecturale Ursprache de Tlön, d’où proviennent les langues « actuelles » et les dialectes :
+            il y a des verbes impersonnels, qualifiés par des suffixes ( ou des préfixes ) monosyllabiques à valeur adverbiale.
+            Par exemple : il n’y a pas de mot qui corresponde au mot « lune », mais il y a un verbe qui serait en français « lunescer » ou « luner ».
+
+            <p>
+                « La lune surgit sur le fleuve » se dit « hlör u fang axaxaxas mlö » soit, dans l’ordre : « après une fluctuation persistante, il luna. »
+            </p>
+        </div>
+
+        <div class="quote-author">
+            - Jorge Luis Borges (Tlön, Uqbar, Orbis Tertius)
+        </div>
+</div>

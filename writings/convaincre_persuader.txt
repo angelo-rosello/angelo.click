@@ -1,0 +1,23 @@
+title: Convaincre, c'est persuader
+date: 08/25
+type: philo
+lang: fr
+description: La vérité objective comme sublime frisson du subjectif.
+
+---
+
+Je veux, par mes propos, exploiter avant tout <em>l'esthétique</em> de l'argumentation pour convaincre et persuader tout à la fois. La logique rhétorique n'est pas utilisée pour ses qualités argumentatives propres, mais pour la beauté qui se cache au sein même du procédé qu'elle met en jeu. Au diable le bien-fondé de la raison et de la logique platonicienne : c'est toujours et seulement leur puissance évocatrice qu'on exploite en sous-texte ! 
+
+On peut souvent se convaincre d'être convaincu, mais on est toujours persuadé. Convaincre, en essence, c'est faire appel à ce que la morale, l'ordre et la rigueur font vibrer de beau dans le cœur des hommes. C'est écouter avec un plaisir sans réserve, qu'on se plaît à dissimuler un instant sous des dehors austères, ce qui en nous résonne quand on raisonne. Les amoureux de la vérité pure sont en tout premier lieu des amoureux. Et quelle beauté tragique, quelle splendeur, et quelle juvénile candeur dans leurs ébats maladroits ! Par force d'âme ou par pudeur, ce sont des amants qui s'ignorent !
+Amoureux de la vérité, quand un jour vous la trouverez, baisez-la donc sur chaque joue : vous êtes les esthètes du raisonnement !
+
+<div class="quote">
+        <div class="quote-text">
+         La vérité n'est rien d'extérieur à nous. 
+            <br /> La vérité n'est pas dans la connaissance qu'on en prend mais dans la jouissance qu'elle nous donne.
+        </div>
+        <div class="quote-author">
+            - Christian Bobin (Le Très Bas)
+        </div>
+    </div>
+</div>

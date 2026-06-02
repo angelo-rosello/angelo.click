@@ -1,0 +1,175 @@
+title: Dorky Fork OST
+date: 01/20
+tags: ost
+lang:
+description: 
+audio:
+image: images/dorky fork.avif
+
+---
+
+<div class="album">
+
+    <img
+        class="album-cover"
+        src="images/dorky fork.avif"
+        alt="Dorky Fork OST">
+
+
+    <div class="album-tracks">
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                01 - main theme
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/main theme.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                02 - dorky beat
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/dorky beat.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                03 - blocky jungle part1
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/blocky jungle part1.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                04 - blocky jungle part2
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/blocky jungle part2.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                05 - sparsy waltz
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/sparsy waltz.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                06 - blocky galaxy part1
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/blocky galaxy part1.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                07 - blocky galaxy part2
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/blocky galaxy part2.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                08 - sekai
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/sekai.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+
+	
+
+
+    </div>
+
+</div>

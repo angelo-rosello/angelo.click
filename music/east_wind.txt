@@ -1,0 +1,57 @@
+title: The East Wind
+date: 11/19
+tags: song
+lang: en
+description: 
+audio: audio/east wind.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+It's the same old tale\\
+A breeze caught in your veil\\
+A longing echo of the shore\\
+Flying through your open door\\
+And it's\\
+The silence in a stare\\
+A rumor in the air\\
+Shimmering stars on quiet nights\\
+Wishing you're alright
+
+A gust of air\\
+From God know where\\
+And God knows why
+
+When the hills start quaking\\
+The leaves start shaking\\
+The East Wind's coming to town\\
+And we both know darling\\
+We should be sticking around\\
+For when your brain feels fuzzy\\
+Your touch feels funny\\
+And your mind starts to drown\\
+That's when you know honey\\
+The East Wind's coming to town
+
+And should we wait out?\\
+Look for shelter?\\
+This wind's strong\\
+And you and I know better\\
+So spread your arms\\
+And fly along\\
+It will take you where you belong
+
+When the hills start quaking\\
+The leaves start shaking\\
+The East Wind's coming to town\\
+And we both know darling\\
+We should be sticking around\\
+For when your brain feels fuzzy\\
+Your touch feels funny\\
+And your mind starts to drown\\
+That's when you know honey\\
+The East Wind's coming to town
+
+</div>

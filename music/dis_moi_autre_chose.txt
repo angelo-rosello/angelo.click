@@ -1,0 +1,89 @@
+title: Dis-moi autre chose
+date: 11/23
+tags: chanson
+lang: fr
+description: 
+audio: audio/dis moi autre chose.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+On a crié sous nos cirés\\
+L'envie d'encore se désirer\\
+Cent fois\\
+Malgré le sel et les marées\\
+Tu vois je t'aime ici\\
+Comme je t'aimais là bas
+
+On a bronzé sous les pavés\\
+On a appris à s'envoler\\
+Cent fois\\
+Semé les doutes à la volée\\
+Tu vois je t'aime encore\\
+Comme je t'aimais déjà\\
+Et j'f'rais n'importe quoi\\
+Pour te garder encore un peu
+
+Tu sais qu'tu peux tout me dire\\
+Sauf ça\\
+Dis-moi autre chose\\
+Pitié parle-moi encore de toi\\
+Dis-moi autre chose\\
+Parle-moi de ton enfance\\
+De tes envies pour les vacances\\
+Tu sais qu'tu peux tout me dire\\
+Pas ça\\
+Trouve autre chose
+
+Tu sais que j'peux tout entendre\\
+Sauf ça\\
+Dis-moi autre chose\\
+Tu sais que je serais toujours là\\
+Dis-moi autre chose\\
+Parle-moi de tes galères\\
+De tout ce qui grouille\\sous la terre\\
+Dis-moi tout ce que tu veux\\
+Pas ça\\
+Trouve autre chose que ça
+
+On a partagé nos chaleurs\\
+On a mélangé nos couleurs\\
+Au doigt\\
+On a délogé nos douleurs\\
+Tu vois je garde au cœur\\
+Le doux de ces heures là\\
+
+On a sifflé un bout d'bonheur\\
+On a couru comme des voleurs\\
+Sans foi\\
+Ni loi mais l'oiseau dans le cœur\\
+Tu vois je t'aime comme si\\
+Toi tu m'aimais comme ça\\
+Et j'f'rais n'importe quoi\\
+Pour te garder encore une heure
+
+Tu sais qu'tu peux tout me dire\\
+Sauf ça\\
+Dis-moi autre chose\\
+Pitié parle-moi encore de toi\\
+Dis-moi autre chose\\
+Parle-moi de cette saison\\
+De tes parents, de leur maison\\
+Tu sais qu'tu peux tout me dire\\
+Pas ça\\
+Trouve autre chose
+
+Tu sais que j'peux tout entendre\\
+Sauf ça\\
+Dis-moi autre chose\\
+Tu sais que je serais toujours là\\
+Dis-moi autre chose\\
+Parle-moi de tes colères\\
+De tout ce qui grouille\\sous la terre\\
+Dis-moi tout ce que tu veux\\
+Pas ça\\
+Trouve autre chose que ça
+
+</div>

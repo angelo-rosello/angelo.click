@@ -1,0 +1,99 @@
+title: Generally Miserable Album
+date: 09/19
+tags: electronic
+lang: 
+description: 
+audio:
+image: images/generally miserable.avif
+
+---
+
+<div class="album">
+
+    <img
+        class="album-cover"
+        src="images/generally miserable.avif"
+        alt="Generally Miserable">
+
+
+    <div class="album-tracks">
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                01 - Remain
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/remain.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                02 - Really just fine Lying on the ground
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/really just fine.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                03 - Wild Things (Karen O & the Kids Remix)
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/wild things.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                04 - Generally Miserable
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/generally miserable.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+
+    </div>
+
+</div>

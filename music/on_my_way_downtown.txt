@@ -1,0 +1,81 @@
+title: On my way downtown
+date: 04/16
+tags: song
+lang: en
+description: 
+audio: audio/on my way downtown.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+I saw a monster today\\
+I saw a monster today\\
+On my way downtown\\
+I saw a monster today\\
+I saw a monster today\\
+On my way downtown\\
+He said:\\
+Why won't the other kids\\
+Just play with I?\\
+Don't they know there's more to life\\
+Than meets the eye?
+
+I saw a penguin today\\
+I saw a penguin today\\
+On my way downtown\\
+I saw a penguin today\\
+I saw a penguin today\\
+On my way downtown\\
+He said:\\
+How can they be so sure\\
+That I can't fly?\\
+Hey maybe if they weren't so sure\\
+I'd give it a try
+
+I saw a fairy today\\
+I saw a fairy today\\ 
+On my way downtown\\
+I saw a fairy today\\
+I saw a fairy today\\
+On my way downtown\\
+She said:\\
+The princess wants a prince\\
+To hold her tight\\
+But when a frog hops at her window\\
+She feels grossed out
+
+I saw a sunray today\\
+I saw a sunray today\\ 
+On my way downtown\\
+I saw a sunray today\\
+I saw a sunray today\\
+On my way downtown\\
+He said:\\
+It sure is fun to travel\\
+At the speed of light\\
+But I like to hide under a cloud\\
+And watch time fly
+
+I saw an angel today\\
+I saw an angel today\\
+On my way downtown\\
+I saw an angel today\\
+I saw an angel today\\
+On my way downtown\\
+He said:\\
+They all wanna know\\
+What happens after you die\\
+But some things happen before\\
+And noone seems to mind
+
+He said:\\
+Go and meet and play\\
+And trust and cheer\\
+Look out the window, do not fear\\
+Enjoy the sun, enjoy the clouds\\
+Make your way downtown\\
+And sing aloud
+
+</div>

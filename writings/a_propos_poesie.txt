@@ -1,0 +1,11 @@
+title: A propos du mot "poésie"
+date: 11/25
+type: philo
+lang: fr
+description: Une tentative de définition.
+
+---
+
+Le mot "poésie" est une métonymie. Dans l'usage courant, il désigne bien souvent le mode littéraire par lequel on cherche à saisir l'insaisissable. Mais la poésie en vérité, c'est la sensation que procure sa lecture, ou le feu invisible qui en commande l'écriture. En ce sens le mot "poésie" est finaliste autant que primaliste : il prend la causalité à rebours en donnant au pinceau le nom de ce qu'il cherche à peindre, ou celui de la muse invisible qui agite la main de l'artiste. Mieux encore, il donne à comprendre qu'il n'y a en vérité aucune distance entre les deux extrêmes : l'inspiration soufflée et l'œuvre réalisée s'embrassent et se fécondent dans le flux tendu du geste créatif. Essayer, griffonner, méditer, maudire, c'est sans cesse leur rendre grâce. 
+
+C'est en fait cette grâce même que l'on doit nommer "poésie". En ce sens ultime, le mot est non seulement une métonymie, mais une icône sémantique dont la structure conceptuelle reflète le sens profond. En prêtant par analogie le nom du Graal à celui qui le cherche, le mot "poésie" lui-même annule les distances sémantiques entre l'élan, la quête et l'aboutissement : il réalise symboliquement son sens véritable.

@@ -1,0 +1,9 @@
+title: Contemplation I
+date: 01/19
+tags: piano
+lang:
+description: 
+audio:  audio/contemplation1.mp3
+image: 
+
+---

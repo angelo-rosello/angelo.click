@@ -1,0 +1,67 @@
+title: A Piece of Me
+date: 04/16
+tags: song
+lang: en
+description: 
+audio: audio/a piece of me.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+Tip tip toe down the stairs\\
+I hear it miles away from there\\
+A whisper in your ear\\
+I feel it like I'm here\\
+I got this song in my head\\
+The one we sang in the rain\\
+And they got mad at us\\
+Cause it was hideous
+
+And we ran under a tree\\
+We were soaked and we were free\\
+And you stole a piece of me
+
+Tip tip toe on the sand\\
+There's a shell on the ground\\
+Hold it to your ear\\
+My heart beats in here\\
+I got this song in my head\\
+The one you hum in your bed\\
+When they all go to sleep\\
+And you lay back and think
+
+When we ran under a tree\\
+We were soaked and we were free\\
+And you stole a piece of me
+
+Tip tip toe down the street\\
+Who are you running to meet?\\
+It's romance I can tell\\
+I know you too well\\
+You got this song in your head\\
+The words that we left unsaid\\
+Are standing in our way\\
+Like it was yesterday
+
+That we ran under a tree\\
+We were soaked and we were free\\
+And you stole a piece of me
+
+Tip tip toe on the floor\\
+There's a girl at the door\\
+Standing in the rain\\
+I invite her in\\
+But she's taking my hand\\
+And we're running around\\
+Singing in the rain\\
+Live it all again
+
+And we run up to a tree\\
+We are soaked and we are free\\
+That's when I knew\\
+I had stolen a piece of you
+
+
+</div>

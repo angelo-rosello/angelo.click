@@ -1,0 +1,9 @@
+title: Tokens of novelty
+date: 05/25
+type: philo
+lang: en
+description: Quite a simple idea, but I thought it was neat.
+
+---
+
+Time doesn't progress linearly. If you wish to set a temporal distance between you and a past event, you don't just wait in silence. What you want is cumulated experiences: good, bad, it doesn't matter - this is what your brain truly perceives as time. To feel time, one must live it: not merely wait, but engage. Its increments are not defined by seconds, but by tokens of novelty.

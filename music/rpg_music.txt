@@ -1,0 +1,100 @@
+title: Soundtrack from some RPG I made up
+date: 06/18
+tags: ost
+lang: 
+description: 
+audio:
+image: images/some rpg.avif
+
+---
+
+<div class="album">
+
+    <img
+        class="album-cover"
+        src="images/some rpg.avif"
+        alt="Some RPG I made up">
+
+
+    <div class="album-tracks">
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                01 - City of light
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/city of light.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                02 - Party down at the cemetary
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/party down at the cemetary.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                03 - Seashells by the seashore
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/seashells by the seashore.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                04 - So, we will fight!
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/so we will fight.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	
+
+
+    </div>
+
+</div>

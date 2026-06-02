@@ -1,0 +1,55 @@
+title: Solipsisme
+date: 04/26
+tags: chanson
+lang: fr
+description: 
+audio: audio/solipsisme.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+J'ai le monde en clé de bras\\
+Et le cœur au bout des doigts\\
+Qui me bat l'ecchymose\\
+J'aime mieux la vue d'en bas\\
+Et les étés sous les toits\\
+Que toutes ces autres choses
+
+There ain't nothing other\\
+Than me\\
+Il n'y a rien d'ailleurs qu'ici
+
+Tout ce qu'il se fait de beau\\
+Est né dans ma fleur de peau\\
+D'un pollen invisible\\
+Plus de saisons, de châteaux\\
+Mais quelle âme est sans défaut?\\
+Quel poème indicible?
+
+Show me something other\\
+Than me\\
+Il n'y a rien d'ailleurs qu'ici\\
+Show me someone I can call you\\
+Il n'y a rien de plus que tout
+
+Et je voudrais\\
+Lire trait pour trait\\
+Vos chagrins\\
+Tenir pour vrai\\
+D'autres secrets\\
+Que les miens\\
+Que les miens\\
+Hisser au cœur\\
+Toutes vos couleurs\\
+D'arlequin\\
+Qu'on soit plusieurs\\
+À n'être qu'un
+
+J'en sais rien\\
+Je ne sais rien
+
+J'ai le monde en clé de bras\\
+Et les étés sous les toits
+</div>

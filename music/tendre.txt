@@ -1,0 +1,86 @@
+title: Tendre
+date: 01/24
+tags: chanson
+lang: fr
+description: 
+audio: audio/tendre.mp3
+image: 
+
+---
+
+
+<div class="lyrics">
+
+Quand on s’est retrouvé\\
+Au café ce jour là\\
+Comme la première fois j’ai su\\
+Que l’on se connaissait\\
+Et on s’est demandé\\
+Un sourire dans la voix\\
+Pourquoi c’est toujours toi ?\\
+On savait
+
+Confondus dans nos verres\\
+L’eau de vie et de rose\\
+Et dans nos vies moroses\\
+Les peines et les bouquets\\
+On a fait ce qu’on a pu\\
+Pour parler d’autre chose\\
+Mais le temps d’une pause\\
+On s’est vu
+
+Tendre c’était tendre\\
+Je n’peux plus ne plus y penser\\
+A la porte de ta chambre\\
+Mon cœur vient tambouriner\\
+Tendre c’était tendre\\
+Et je n’en peux plus de compter\\
+Les jours passés à t’attendre\\
+Tendre
+
+Tendre c’était tendre\\
+Laisse nous encore y goûter\\
+Laisse nous encore\\nous y prendre\\
+Et tendrement s'essouffler\\
+Tendre c’était tendre\\
+Et je n’veux plus les écouter\\
+Les jours passés sans t’entendre\\
+Tendre
+
+On marchait dans la rue\\
+Quand tout était fermé\\
+T’as dit "j'suis compliquée"\\
+Je crois que ça m’a plu\\
+On avait le cœur nu\\
+Mais la langue liée\\
+Quand devant ton pallier\\
+On a su
+
+Tu m’as dit t’envole pas\\
+C’que ça veut dire et\\
+Où l’on va comme ça moi\\
+J’en sais rien\\
+Je t’ai pris dans mes doigts\\
+C’était une chaleur qu’alors\\
+Je n’attendais plus\\
+C’était bien
+
+Tendre c’était tendre\\
+Je n’peux plus ne plus y penser\\
+A la porte de ta chambre \\
+Mon cœur vient tambouriner\\
+Tendre c’était tendre\\
+Et je n’en peux plus de compter\\
+Les jours passés à t’attendre\\
+Tendre
+
+Tendre c’était tendre \\
+Oh je voudrais recommencer\\
+La même nuit sans plus comprendre\\
+M’étendre et tout oublier\\
+Tendre c’était tendre\\
+Et comment ne pas succomber\\
+Au piège que tu sembles tendre\\
+Tendre
+
+</div>

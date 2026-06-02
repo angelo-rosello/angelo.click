@@ -1,0 +1,158 @@
+title: Rainforest Album
+date: 10/18
+tags: ambient
+lang: 
+description: 
+audio:
+image: images/rainforest.avif
+
+---
+
+<div class="album">
+
+    <img
+        class="album-cover"
+        src="images/rainforest.avif"
+        alt="Generally Miserable">
+
+
+    <div class="album-tracks">
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                01 - Parting friends?
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/parting friends.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+        <div class="album-track">
+
+            <span class="album-track-title">
+
+                02 - 4am prelude
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/4am prelude.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                03 - Rainforest
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/rainforest.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                04 - The girl from the bus stop
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/the girl from the bus stop.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                05 - I am the bad guy
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/i am the bad guy.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                06 - Then a bee came to me
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/then a bee came to me.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+	<div class="album-track">
+
+            <span class="album-track-title">
+
+                07 - This nature is mine (outro)
+
+            </span>
+
+            <audio controls preload="none">
+
+                <source
+                    src="audio/this nature is mine.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</div>

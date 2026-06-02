@@ -1,0 +1,36 @@
+title: Dieu, c'est le Vivre
+date: 01/26
+type: philo, poème
+lang: fr
+description: Ecrit un matin, sur un siège du quai de la station Luxembourg. Je saurais vous montrer lequel.
+
+---
+
+
+Vous me demandez "Qu'est-ce que c'est, Dieu ?", et je me faufile dans vos yeux. Votre regard accueille le mien, il le caresse de bord en bord, et cherche une fuite dans sa défense pour pénétrer son angle mort. Une tendre escrime à bout portant. Vous et moi laissons planer le silence un instant. Et puis un autre instant. Et encore un peu plus. Vous souriez : comprenez-vous que je vous ai répondu ?
+
+Dieu est la première chose que l'on voit, toujours. C'est l'image avant l'image, le silence entre les notes, le grand verbe avant les mots. Il est planqué juste derrière le voile de la cornée. Tellement près, tellement près qu'on ne voit que lui. Tellement grand, tellement grand qu'on oublie qu'il est là, quand son ombre au dehors maquille l'intime en invisible. Dieu ce n'est pas la vie : de cela bien des choses bonnes et mauvaises peuvent être dites. Dieu c'est le Vivre : de cela rien ne peut être dit. Et c'est en vertu de cela que l'on choisit continuellement d'essayer quand même. Que chacun de nos pas est un poème maladroit, chaque éclat de nos voix un évangile apocryphe. Vivre, c'est servir l'indicible en cherchant à le dire ; échouer, c'est sans cesse lui rendre grâce.
+
+
+<div class="quote">
+
+        <div class="quote-text">
+            <p>
+                Une petite fille mange du chocolat. Il y a plus de lumière sur le papier d'argent enveloppant le chocolat que dans les yeux des sages.
+            </p>
+            <p>
+                Le livre que je tiens entre les mains se met parfois à sourire.
+            </p>
+            <p>
+                J'apprends que je suis vivant. Je dois cette bonne nouvelle à l'air qui circule sous une phrase en faisant flotter ses mots, très légèrement, au dessus de la page.
+            </p>
+            <p>
+                Je ne cherche pas à vous convaincre. C'est harassant, vain et au fond un peu cruel de convaincre. Je voulais juste vous dire qu'un jour j'ai vu, planté dans un livre d'André Dhôtel, un panneau indicateur du paradis. La distance marquée ? Il n'y a pas de distance. L'Eternel est là, sous nos yeux, sous nos pieds, dans une phrase.
+            </p>
+        </div>
+
+        <div class="quote-author">
+            - Christian Bobin (La Grande Vie)
+        </div>
+
+    </div>

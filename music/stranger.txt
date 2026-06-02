@@ -1,0 +1,61 @@
+title: Stranger
+date: 01/19
+tags: song
+lang: en
+description: 
+audio: audio/stranger.mp3
+image: 
+
+---
+
+
+<div class="lyrics">
+
+If I joined you\\
+Would you mind?\\
+I'll be quiet\\
+Although you're one of a kind\\
+One of a kind\\
+Would you mind?
+
+Heading forward\\
+If you please\\
+I'm lost for words\\
+And your word's the one that I need\\
+Your word's the one that I need\\
+If you please
+
+I can hardly listen\\
+To my own advice\\
+Things get only stranger\\
+Looking in your eyes\\
+And I can feel a tender\\
+Pinching in my heart\\
+Though we're only strangers\\
+Waiting in the dark
+
+Seeking trouble\\
+Do you care?\\
+Late night fumble\\
+Feels like there's nobody there\\
+Nobody there\\
+Do you care?
+
+And if I asked you\\
+Would you stay?\\
+These things I do\\
+Just to get in your way\\
+Just to get in your way\\
+Would you stay?
+
+I can hardly listen\\
+To my own advice\\
+Things get only stranger\\
+Looking in your eyes\\
+And I can feel a tender\\
+Pinching in my heart\\
+Though we're only strangers\\
+Waiting in the dark
+
+
+</div>

@@ -1,0 +1,29 @@
+title: Acoustic Demo
+date: 01/24
+tags: chanson
+lang: fr/en
+description: 
+audio: 
+image: images/demo.jpg
+
+---
+
+Démo vidéo de quelques chansons. Voix et guitares enregistrées en live, basse et chœurs ajoutés en post :)
+
+<iframe
+class="youtube"
+src="https://www.youtube.com/embed/a3_t2Aeq3n4"
+allowfullscreen>
+</iframe>
+
+<iframe
+class="youtube"
+src="https://www.youtube.com/embed/Bd_IxmbnZps"
+allowfullscreen>
+</iframe>
+
+<iframe
+class="youtube"
+src="https://www.youtube.com/embed/12-xxRsOqbQ"
+allowfullscreen>
+</iframe>

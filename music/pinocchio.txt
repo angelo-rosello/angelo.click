@@ -1,0 +1,74 @@
+title: Pinocchio
+date: 08/16
+tags: chanson
+lang: fr
+description: 
+audio: audio/pinocchio.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+J'ai des p'tits oiseaux dans la tête\\
+Et les doigts\\comme des allumettes\\
+Faut pas qu'j'm'enflamme\\
+J'ai mes raisons\\
+J'veux devenir un vrai p'tit garçon\\
+On dit qu'j'suis né sur une étoile\\
+Et puis qu'un jour\\j'ai mis les voiles\\
+Jusqu'à une poupée de chiffon\\
+Où j'ai fait ma nouvelle maison\\
+Pour prendre le temps\\
+De faire le tour de la question
+
+Et je ne marche pas toujours droit\\
+Je sème des p'tits\\copeaux de bois\\
+Et ils s'envolent, c'est rassurant\\
+De savoir où souffle le vent\\
+Le matin je vais à l'école\\
+Où l'on m'apprend\\
+Toutes ces bricoles\\
+Qui font que\\le monde tourne rond\\
+Tu sais, j'espère qu'ils ont raison\\
+Mais pour l'instant\\
+J'me laisse un temps de réflexion
+
+Et mon nez s'allonge\\quand je mens\\
+Mais je le lime assez souvent\\
+Ça fait un mal de chien tu sais\\
+J'attends le jour où je s'rai vrai\\
+Quand je sens qu'il\\faut virer d'bord\\
+Un grand bateau m'attend au port\\
+Chasser la baleine au harpon\\
+Noyer mes doutes à l'horizon\\
+Et prendre le temps\\
+De faire le tour de la question
+
+La nuit dans ma p'tit tête en bois\\
+Je rêve d'avoir un cœur qui bat\\
+Mais je m'accroche et je tiens bon\\
+Le roseau plie\\
+quand le chêne rompt\\
+Et un jour prochain tu verras\\
+Je trouverai ce qu'il faut en moi\\
+Pour couper ces fils de nylon\\
+Et marcher libre pour de bon\\
+Mais pour l'instant\\
+L'chemin restant est encore long
+
+
+J'ai des p'tits oiseaux dans la tête\\
+Et les doigts\\comme des allumettes\\
+Faut pas qu'j'm'enflamme\\
+J'ai mes raisons\\
+J'veux devenir un vrai p'tit garçon\\
+On dit qu'j'suis né sur une étoile\\
+Et puis qu'un jour\\j'ai mis les voiles\\
+Jusqu'à une poupée de chiffon\\
+Où j'ai fait ma nouvelle maison\\
+Pour prendre le temps\\
+De faire le tour\\
+De la question
+
+</div>

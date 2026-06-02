@@ -1,0 +1,15 @@
+title: Contemplation V
+date: 08/23
+tags: piano
+lang:
+description: 
+audio:
+image: images/contemplation5.png
+
+---
+
+<iframe
+class="youtube"
+src="https://www.youtube.com/embed/hQyZlZie0r4"
+allowfullscreen>
+</iframe>

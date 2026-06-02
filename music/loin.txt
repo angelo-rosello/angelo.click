@@ -1,0 +1,81 @@
+title: Loin
+date: 11/20
+tags: chanson
+lang: fr
+description: 
+audio: audio/loin.mp3
+image: 
+
+---
+
+<div class="lyrics">
+
+Bien-sûr c'est pas l'enfer seulement\\
+Un peu s'en faire\\
+Et passer des nuits sans ciller\\
+Des nuits sans ciller\\
+Et des journées sans plier
+
+Bien-sûr c'est pas la guerre seulement\\
+Toi sur la Terre\\
+Et une crevasse entre nos pieds\\
+Valse entre nos pieds\\
+Le vent du long sentier
+
+Crie dans tes mains\\
+Comme on est loins\\
+Crie dans tes mains
+
+Le cœur lourd comme de la pierre\\
+Reclus au bout de la Terre\\
+L O I N\\
+Bravant deux mille ans d'exil\\
+On s'accroche au bout du fil\\
+L O I N\\
+Croix de rêve et croix de doute\\
+Pélerinant sur la route\\
+L O I N\\
+Et tout finira sans doute\\
+Bien
+
+Bien-sûr on a fait pire déboire\\
+Mais on fait peur à voir\\
+Vivre sans un bruit\\
+Dîner sans envie\\
+On s'étiole on se languit
+
+Mais bien-sûr c'est une erreur\\de croire\\
+Que l'on est seul à voir\\
+Défiler la vie\\
+S'effiler la vie\\
+Sans mot dire et sans avis
+
+Bien-sûr c'est pas l'enfer ce soir\\
+La lune est claire\\
+Et je t'y devine à demi\\
+Divine à demi\\
+Comme la moitié d'une amie
+
+Et bien-sûr c'est pas la mer à boire\\
+En solitaire devoir\\
+Naviguer la nuit\\
+Chavirer la nuit\\
+En nage au fond de son lit
+
+Crie dans tes mains\\
+Comme on est loins\\
+Crie dans tes mains
+
+Le cœur lourd comme de la pierre\\
+Reclus au bout de la Terre\\
+L O I N\\
+Bravant deux mille ans d'exil\\
+On s'accroche au bout du fil\\
+L O I N\\
+Croix de rêve et croix de doute\\
+Pélerinant sur la route\\
+L O I N\\
+Et tout finira sans doute\\
+Bien
+
+</div>
