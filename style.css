@@ -625,6 +625,20 @@ header {
    IMAGES & EMBEDS
 ========================================================= */
 
+.writing-image {
+    display: block;
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+    margin: 2rem auto;
+}
+
+@media (max-width: 700px) {
+    .writing-image {
+        width: 100%;
+    }
+}
+
     .music-cover {
         display: block;
         width: 70%;
