@@ -45,24 +45,39 @@ echo ==========================================
 echo.
 
 git add .
-
 git commit -m "%msg%"
 
-echo Commit finished.
+echo.
+echo Updating from GitHub...
+git pull --rebase origin main
+
+if errorlevel 1 (
+    echo.
+    echo ==========================================
+    echo UPDATE FAILED
+    echo ==========================================
+    echo.
+    pause
+    exit /b 1
+)
 
 echo.
-echo ==========================================
-echo PUSHING
-echo ==========================================
-echo.
-
+echo Pushing to GitHub...
 git push
 
-echo Push finished.
+if errorlevel 1 (
+    echo.
+    echo ==========================================
+    echo PUSH FAILED
+    echo ==========================================
+    echo.
+    pause
+    exit /b 1
+)
 
 echo.
 echo ==========================================
-echo DONE
+echo DONE - SITE UPDATED
 echo ==========================================
 echo.
 
