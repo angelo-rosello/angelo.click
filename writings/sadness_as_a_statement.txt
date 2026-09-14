@@ -35,7 +35,8 @@ I never could scream. Maybe that's what's holding me back.
 
 <div class="quote">
     <div class="quote-text">
-        The sounds in my head are just a little quieter now I've paid them their due.
+        The sounds in my head are just a little quieter<br>
+	now I've paid them their due.
     </div>
 
     <div class="quote-author">
