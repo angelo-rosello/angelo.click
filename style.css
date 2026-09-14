@@ -992,7 +992,7 @@ header {
 
     .quote-text {
         padding: 1rem 2rem;
-        font-size: 1rem;
+        font-size: 0.5rem;
         line-height: 1.8;
     }
 
@@ -1003,7 +1003,7 @@ header {
 
     .quote-author {
         margin-top: 1.5rem;
-        font-size: 0.65rem;
+        font-size: 0.8rem;
         letter-spacing: 0.1em;
     }
 }
