@@ -1,31 +1,63 @@
 title: Sadness as a statement
 date: 11/25
-type: philo, poem
-lang: eng
-description: To the cosmos: "I have not forgiven you"
+type: philo
+lang: eng, fr
+description: I'm ok though don't sweat it hehe
 
 ---
 
-Am I sad because I <i>want</i> to be sad? 
+Am I sad because I <i>want</i> to be? 
 
-At this point, this feeling has been lasting so long that it cannot be a discrete contextual response.\\
+This feeling has been lasting so long that it cannot be a discrete contextual response.\\
 Perhaps it is a choice, some kind of commitment.\\
-Perhaps I believe being sad is the appropriate response to the current state of my life.\\
+Perhaps I truly believe being sad is the appropriate response to the current state of my life.\\
 A self-perpetuated stance of disapproval I insist on wearing everyday as I parade around, in the hope that the cruel universe that orchestrated all of this realizes just how unjust it has been.\\
+
 A statement to the cosmos: <i>"I have not forgiven you."</i>\\
 
 Perhaps I am a toddler putting on an exagerated frown and crying wildly every time I get into mommy's field of view, to let her know just how much I disagree with the sentence, hoping to earn a few pitiful words of comfort for something I don't quite understand.\\ 
 My child mind cannot comprehend the existential <i>why</i>.\\
 It can barely grasp the phenomenological <i>why</i>, which we call the <i>how</i>.\\
 
-<i>Are all emotions unreserved displays of approval and disapproval, directed towards a parental universe in the hope to spark a comforting motherly reaction?</i>
+Hypothesis : Are all emotions unreserved displays of approval and disapproval,\\
+directed towards a parental universe in the hope to spark a comforting motherly reaction?
 
 I am torn between gazing into this sadness and ignoring it to go on with my day.\\
 I keep switching sides every couple of months, because none of these methods seem to dampen the sadness in any significant amount.\\
 I am aware that my feelings shouldn't be ignored, but over years of looking at them without any change, there is a point where observation becomes devotion.\\
 Acknowledging the sadness consistently is like keeping the flame lit. \\
+
 Perhaps contemplating the sadness does not give it the acknowledgement it requires.\\
 Perhaps the debt I owe this sadness cannot be paid with thoughts alone.\\
 Perhaps this sadness requires me to live it wildly, to cry it out, to scream it at the top of my lungs, to shape it into yet another ungodly amount of pitiful songs and poems to be sung in the moonlight for everyone to hear.\\
 
 I never could scream. Maybe that's what's holding me back.
+
+---
+
+Suis-je triste parce que j’<i>ai envie</i> de l’être ?
+
+Ce sentiment dure depuis si longtemps qu’il ne peut plus être une simple réaction contextuelle.\\
+Peut-être est-ce un choix, une sorte d’engagement.\\
+Peut-être que je crois que la tristesse est la réponse appropriée à l’état actuel de ma vie.\\
+Une posture de désapprobation que j’entretiens moi-même, que j’insiste à porter chaque jour tandis que je parade, dans l’espoir que l’univers cruel qui a orchestré tout cela réalise à quel point il a été injuste.\\
+
+Une déclaration unilatérale à l'attention du cosmos : <i>« Je ne t'ai pas pardonné. »</i>\\
+
+Peut-être suis-je un bambin qui prend une moue exagérément triste et se met à pleurer à chaudes larmes chaque fois qu’il entre dans le champ de vision de maman, pour lui faire savoir à quel point je désapprouve la punition, dans l’espoir d’obtenir quelques mots de réconfort pitoyables pour quelque chose que je ne comprends pas vraiment.\\
+Mon esprit d’enfant ne peut pas saisir le <i>pourquoi</i> existentiel.\\
+Il parvient à peine à appréhender le <i>pourquoi</i> phénoménologique, que l'on appelle le <i>comment</i>.\\
+
+Hypothèse : Toutes les émotions sont-elles des démonstrations sans réserve d'approbation ou de désapprobation,\\
+adressées à un univers parental dans l’espoir de susciter une réaction maternelle réconfortante ?
+
+Je suis tiraillé entre contempler cette tristesse et l’ignorer pour avancer.\\
+Je change de camp tous les deux ou trois mois, parce qu’aucune de ces méthodes ne semble atténuer la tristesse de manière significative.\\
+Je sais que mes sentiments ne devraient pas être ignorés, mais après des années à les observer sans que rien ne change, il arrive un moment où l’observation devient dévotion.\\
+Reconnaître constamment la tristesse, c’est comme entretenir la flamme. \\
+
+Peut-être que contempler la tristesse ne lui accorde pas la reconnaissance dont elle a besoin.\\
+Peut-être que la dette que je dois à cette tristesse ne peut pas être payée avec des pensées seulement.\\
+Peut-être que cette tristesse exige que je la vive sauvagement, que je la pleure jusqu’au bout, que je la hurle à pleins poumons, que je la transforme en une quantité démesurée de chansons et de poèmes pitoyables à chanter au clair de lune, pour que tout le monde les entende.\\
+
+Je n’ai jamais su crier. Peut-être est-ce cela qui me retient.
