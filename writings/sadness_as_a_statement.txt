@@ -33,6 +33,18 @@ Perhaps this sadness requires me to live it wildly, to cry it out, to scream it 
 
 I never could scream. Maybe that's what's holding me back.
 
+<div class="quote">
+        <div class="quote-text">
+            The sounds in my head are just a little quieter now I've paid them their due.
+        </div>
+
+        <div class="quote-author">
+            - The left/right game, part. 4
+        </div>
+</div>
+
+
+
 ---
 
 Suis-je triste parce que j’<i>ai envie</i> de l’être ?
@@ -48,7 +60,7 @@ Peut-être suis-je un bambin qui prend une moue exagérément triste et se met �
 Mon esprit d’enfant ne peut pas saisir le <i>pourquoi</i> existentiel.\\
 Il parvient à peine à appréhender le <i>pourquoi</i> phénoménologique, que l'on appelle le <i>comment</i>.\\
 
-Hypothèse : Toutes les émotions sont-elles des démonstrations sans réserve d'approbation ou de désapprobation,\\
+Hypothèse : Toutes les émotions sont-elles des démonstrations sans réserve d'approbation ou de désapprobation,
 adressées à un univers parental dans l’espoir de susciter une réaction maternelle réconfortante ?
 
 Je suis tiraillé entre contempler cette tristesse et l’ignorer pour avancer.\\
@@ -57,7 +69,7 @@ Je sais que mes sentiments ne devraient pas être ignorés, mais après des ann�
 Reconnaître constamment la tristesse, c’est comme entretenir la flamme. \\
 
 Peut-être que contempler la tristesse ne lui accorde pas la reconnaissance dont elle a besoin.\\
-Peut-être que la dette que je dois à cette tristesse ne peut pas être payée avec des pensées seulement.\\
+Peut-être que la dette que je dois à cette tristesse ne peut pas être payée en pensées.\\
 Peut-être que cette tristesse exige que je la vive sauvagement, que je la pleure jusqu’au bout, que je la hurle à pleins poumons, que je la transforme en une quantité démesurée de chansons et de poèmes pitoyables à chanter au clair de lune, pour que tout le monde les entende.\\
 
-Je n’ai jamais su crier. Peut-être est-ce cela qui me retient.
+Je n’ai jamais su crier. Peut-être est-ce là ce qui me retient.

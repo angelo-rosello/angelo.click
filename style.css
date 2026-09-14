@@ -553,6 +553,26 @@ header {
     }
 
 
+    /* IMAGES INSIDE WRITINGS */
+
+    .writing-image {
+        display: block;
+        width: 60%;
+        max-width: 700px;
+        height: auto;
+        margin: 2rem auto;
+    }
+
+
+    /* MOBILE */
+
+    @media (max-width: 700px) {
+
+        .writing-image {
+            width: 100%;
+        }
+
+
 
     /* =========================================================
    TAG COLORS
@@ -625,19 +645,6 @@ header {
    IMAGES & EMBEDS
 ========================================================= */
 
-.writing-image {
-    display: block;
-    width: 60%;
-    max-width: 700px;
-    height: auto;
-    margin: 2rem auto;
-}
-
-@media (max-width: 700px) {
-    .writing-image {
-        width: 100%;
-    }
-}
 
     .music-cover {
         display: block;
@@ -762,143 +769,141 @@ header {
         }
 
 
-/* =========================================
+    /* =========================================
        COMPACT MOBILE CARDS
     ========================================= */
 
-@media (max-width: 700px) {
+    @media (max-width: 700px) {
 
-    /* =========================================
+        /* =========================================
        SINGLE COLUMN
     ========================================= */
 
-    .card-grid {
-        grid-template-columns: 1fr;
-        gap: 0.6rem;
-    }
-
-
-    /* =========================================
-       COLLAPSED CARD
-    ========================================= */
-
-    .card:not(.expanded) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        gap: 1rem;
-        padding-bottom: 0rem;
-    }
+        .card-grid {
+            grid-template-columns: 1fr;
+            gap: 0.6rem;
+        }
 
 
         /* =========================================
+       COLLAPSED CARD
+    ========================================= */
+
+        .card:not(.expanded) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 1rem;
+            padding-bottom: 0rem;
+        }
+
+
+            /* =========================================
        LEFT SIDE : TITLE
     ========================================= */
 
-        .card:not(.expanded) .card-header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            min-width: 120px;
-        }
+            .card:not(.expanded) .card-header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                min-width: 120px;
+            }
 
 
-        .card:not(.expanded) h3 {
-            text-align: left;
-            font-size: 0.9rem;
-            line-height: 1.3rem;
-            letter-spacing: 0.15em;
-            margin-top: 0.2rem;
-        }
+            .card:not(.expanded) h3 {
+                text-align: left;
+                font-size: 0.9rem;
+                line-height: 1.3rem;
+                letter-spacing: 0.15em;
+                margin-top: 0.2rem;
+            }
 
 
-        .card:not(.expanded) .card-type {
-            font-size: 0.55rem;
-        }
+            .card:not(.expanded) .card-type {
+                font-size: 0.55rem;
+            }
 
 
-    /* =========================================
+            /* =========================================
        RIGHT SIDE : PREVIEW
     ========================================= */
 
-        .card:not(.expanded) .card-preview {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 150px;
-            min-height: 70px;
-            margin-top: -0.5rem;
-            margin-bottom: -0.5rem;
-        }
+            .card:not(.expanded) .card-preview {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                min-height: 70px;
+                margin-top: -0.5rem;
+                margin-bottom: -0.5rem;
+            }
 
 
             /* ---------- Description ---------- */
 
-            .card:not(.expanded) .card-preview  {
+            .card:not(.expanded) .card-preview {
                 font-size: 0.8rem;
                 line-height: 1.2;
                 text-align: left;
                 color: var(--text-muted);
-                padding-top : 0rem;
-                padding-left : 0rem;
+                padding-top: 0rem;
+                padding-left: 0rem;
             }
 
 
-        /* ---------- Cover ---------- */
+            /* ---------- Cover ---------- */
 
-        .card:not(.expanded) .music-cover {
-            max-width: 100px;
-            max-height: 80px;
-            margin: 0 auto;
-            border-radius : 4px;
-        }
-
-
-        /* ---------- Player ---------- */
-
-        .card:not(.expanded) .music-player {
-            width: 120px;
-        }
-
-
-            .card:not(.expanded) .music-player audio {
-                width: 100%;
-                height: 24px;
+            .card:not(.expanded) .music-cover {
+                max-width: 100px;
+                max-height: 80px;
+                margin: 0 auto;
+                border-radius: 4px;
             }
 
 
-    /* =========================================
+            /* ---------- Player ---------- */
+
+            .card:not(.expanded) .music-player {
+                width: 120px;
+            }
+
+
+                .card:not(.expanded) .music-player audio {
+                    width: 100%;
+                    height: 24px;
+                }
+
+
+        /* =========================================
        EXPANDED CARD
     ========================================= */
 
-    .card.expanded {
-        display: block;
-        padding: 1.2rem;
-    }
-
-
-        .card.expanded h3 {
-            text-align: center;
-            font-size: 1.2rem;
-            line-height: 1.7rem;
-            letter-spacing: 0.3em;
+        .card.expanded {
+            display: block;
+            padding: 1.2rem;
         }
 
 
-        .card.expanded .card-content {
+            .card.expanded h3 {
+                text-align: center;
+                font-size: 1.2rem;
+                line-height: 1.7rem;
+                letter-spacing: 0.3em;
+            }
+
+
+            .card.expanded .card-content {
+                font-size: 1rem;
+                text-align: left;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+        .lyrics {
             font-size: 1rem;
-            text-align: left;
-            padding-left: 0;
-            padding-right: 0;
+            margin-bottom: -1rem;
         }
-
-    .lyrics {
-        font-size: 1rem;
-        margin-bottom : -1rem;
     }
-
-
-}
 
 
 
@@ -1139,7 +1144,7 @@ header {
     .information {
         max-width: 700px;
         margin: 2rem auto;
-        margin-top:-0.25rem;
+        margin-top: -0.25rem;
         text-align: center;
         line-height: 1.9;
         color: var(--text-soft);
@@ -1149,14 +1154,12 @@ header {
     }
 
 
-@media (max-width: 700px) {
+    @media (max-width: 700px) {
 
-    .information {
-        font-size: 0.8rem;
+        .information {
+            font-size: 0.8rem;
+        }
     }
-
-
-}
 
     /* =========================================================
    FOOTER
@@ -1248,120 +1251,110 @@ header {
 
 
 
-/* =========================================================
+    /* =========================================================
    TOGGLE SECTION
 ========================================================= */
 
-.toggle-section {
-    padding-top: 0rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding-top : 0.5rem;
-    padding-bottom: 0rem;
-    border-bottom: 1px solid var(--border);
-}
+    .toggle-section {
+        padding-top: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0rem;
+        border-bottom: 1px solid var(--border);
+    }
 
 
 
-/* =========================================================
+    /* =========================================================
    TOGGLE HEADER
 ========================================================= */
 
-.toggle-header {
-    cursor: pointer;
-    text-align: center;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 1.5rem;
-    letter-spacing: 1em;
-    padding-left: 1em;
-    text-transform: uppercase;
-    color: var(--text);
-    opacity: 0.85;
-    margin-top: 0.5rem;
-    padding-bottom: 0rem;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-@media (max-width: 700px) {
-
     .toggle-header {
-        font-size: 1.3rem;
-        line-height: 1.8rem;
-        letter-spacing: 0.7em;
-        padding-left: 0.7em;
+        cursor: pointer;
+        text-align: center;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.5rem;
+        letter-spacing: 1em;
+        padding-left: 1em;
+        text-transform: uppercase;
+        color: var(--text);
+        opacity: 0.85;
+        margin-top: 0.5rem;
+        padding-bottom: 0rem;
+        transition: opacity 0.3s ease, transform 0.3s ease;
     }
-}
+
+    @media (max-width: 700px) {
+
+        .toggle-header {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            letter-spacing: 0.7em;
+            padding-left: 0.7em;
+        }
+    }
 
     /* ---------- Hover ---------- */
 
     .toggle-header:hover {
-        
     }
 
-/* =========================================================
+    /* =========================================================
    TOGGLE SYMBOL
 ========================================================= */
 
-.toggle-header::after {
-
-    content: " ▼";
-
-    display: inline-block;
-
-    font-size: 0.7em;
-
-    letter-spacing: 0;
-
-    margin-left: 0.5rem;
-
-    opacity: 0.8;
-
-    transition:
-        transform 0.3s ease;
-}
-
-@media (max-width: 700px) {
-
     .toggle-header::after {
-        font-size: 0.8em;
+        content: " ▼";
+        display: inline-block;
+        font-size: 0.7em;
+        letter-spacing: 0;
+        margin-left: 0.5rem;
+        opacity: 0.8;
+        transition: transform 0.3s ease;
     }
-}
 
-/* =========================================================
+    @media (max-width: 700px) {
+
+        .toggle-header::after {
+            font-size: 0.8em;
+        }
+    }
+
+    /* =========================================================
    OPEN
 ========================================================= */
 
-.toggle-section.open .toggle-header::after {
+    .toggle-section.open .toggle-header::after {
+        transform: rotate(180deg);
+    }
 
-    transform: rotate(180deg);
-}
 
+    .toggle-section.open {
+        padding-bottom: 2rem;
+    }
 
-.toggle-section.open {
-    padding-bottom: 2rem;
-}
-
-/* =========================================================
+    /* =========================================================
    TOGGLE CONTENT
 ========================================================= */
 
-.toggle-content {
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 0.4s ease, opacity 0.4s ease;
-}
+    .toggle-content {
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 0.4s ease, opacity 0.4s ease;
+    }
 
 
 
-/* =========================================================
+    /* =========================================================
    OPEN
 ========================================================= */
 
-.toggle-section.open .toggle-content {
-    max-height: 50000px;
-    opacity: 1;
-    transition: max-height 0.7s ease, opacity 0.4s ease;
-}
+    .toggle-section.open .toggle-content {
+        max-height: 50000px;
+        opacity: 1;
+        transition: max-height 0.7s ease, opacity 0.4s ease;
+    }
 
