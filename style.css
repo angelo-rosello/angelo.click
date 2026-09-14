@@ -905,7 +905,6 @@ header {
     }
 
 
-
 /* =========================================================
    QUOTES
 ========================================================= */
@@ -928,7 +927,7 @@ header {
     padding: 1rem 3rem;
     color: var(--text);
     font-style: italic;
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 1.9;
 }
 
@@ -964,7 +963,7 @@ header {
     margin-top: 2rem;
     padding-left: 0;
     color: var(--text-muted);
-    font-size: 0.75rem;
+    font-size: 0.1rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 }
@@ -973,7 +972,7 @@ header {
 /* ---------- PARAGRAPHS INSIDE QUOTES ---------- */
 
 .quote-text p {
-    margin: 0 0 1.2rem 0;
+    margin: 0 0 1rem 0;
 }
 
     .quote-text p:last-child {
@@ -992,7 +991,7 @@ header {
 
     .quote-text {
         padding: 1rem 2rem;
-        font-size: 0.5rem;
+        font-size: 1rem;
         line-height: 1.8;
     }
 
@@ -1003,7 +1002,7 @@ header {
 
     .quote-author {
         margin-top: 1.5rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         letter-spacing: 0.1em;
     }
 }
