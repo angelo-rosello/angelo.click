@@ -34,18 +34,14 @@ Perhaps this sadness requires me to live it wildly, to cry it out, to scream it 
 I never could scream. Maybe that's what's holding me back.
 
 <div class="quote">
-        <div class="quote-text">
-            <p>
-		The sounds in my head are just a little quieter now I've paid them their due.
-	    </p>
-        </div>
+    <div class="quote-text">
+        The sounds in my head are just a little quieter now I've paid them their due.
+    </div>
 
-        <div class="quote-author">
-            - The left/right game, part. 4
-        </div>
+    <div class="quote-author">
+        - The left/right game, part. 4
+    </div>
 </div>
-
-
 ---
 
 Suis-je triste parce que j’<i>ai envie</i> de l’être ?

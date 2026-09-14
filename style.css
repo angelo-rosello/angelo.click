@@ -911,20 +911,29 @@ header {
    QUOTES
 ========================================================= */
 
-    .quote {
-        margin: 2rem 0;
-        max-width: 750px;
-    }
+        .quote {
+            max-width: 700px;
+            margin: 4rem auto;
+            text-align: center;
+        }
 
+        .quote-text {
+            position: relative;
+            padding: 1rem 3rem;
+            color: var(--text-soft);
+            font-style: italic;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
 
-    .quote-text {
-        position: relative;
-        padding: 1rem 2rem;
-        color: var(--text-soft);
-        font-style: italic;
-        font-size: 0.95rem;
-        line-height: 1.8;
-    }
+        .quote-author {
+            margin-top: 1rem;
+            padding-left: 0;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
 
 
         .quote-text::before,
@@ -950,13 +959,6 @@ header {
         }
 
 
-    .quote-author {
-        padding-left: 2rem;
-        color: var(--text-muted);
-        font-size: 1rem;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-    }
 
 
     /* =========================================================
