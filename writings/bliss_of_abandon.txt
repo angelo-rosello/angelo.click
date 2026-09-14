@@ -2,7 +2,7 @@ title: The Bliss of Abandon
 date: 05/26
 type: philo
 lang: eng, fr
-description: Happiness is our natural state
+description: Le bonheur est notre état de nature.
 
 ---
 
