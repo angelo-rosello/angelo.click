@@ -1,7 +1,7 @@
 title: On Dismissing My Emotions
 date: 03/26
 type: philo
-lang: eng
+lang: eng, fr
 description: This one might be a bit too personal lol
 
 ---
@@ -12,7 +12,7 @@ Radical acceptance of reality must in fact include acceptance of my own anger, s
 
 Fear, anger, sadness and disgust are not to be dismissed as petty and irrelevant, are not to be flagged as signs of existential immaturity, are not to be banished as acts of defiance with the flow of life. They are, in truth, the most intimate messengers of necessity. They are manifestations of Being that guide you and urge you to take your active part in it. 
 
-[Insert Bell-Curve wisdom meme : My feelings are everything, I must act on them / Feelings are impermanent illusions, they do not matter / Feelings are the transient messengers of permanence, guiding my path as a vector of necessity]
+<img src="/images/bellcurve_meme.jpg" alt="I love a good bell-curve meme">
 
 ----
 
